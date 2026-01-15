@@ -12,6 +12,7 @@ techfolio-theme: default.css
 ## Specify the formatting for triple backquote code sections.
 rouge-theme: github.css
 
+
 # DON'T CHANGE THE FOLLOWING (unless you know what you're doing)
 markdown: kramdown
 kramdown:
