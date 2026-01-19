@@ -4,10 +4,10 @@
     "label": "Student",
     "picture": "https://github.com/ellaself.png",
     "email": "ellaself@hawaii.edu",
-    "phone": "808-388-7784",
+    "phone": "(808) 388-7784",
     "website": "https://ellaself.github.io",
     "summary": "I am currently an undergraduate student at the University of Hawai‘i at Mānoa, pursuing my Bachelor's degree in Computer Science. I  have earned my degree AS in Spring of 2025 and expect to receive my degree BS in fall of 2027. ",
-    "location": { "address": "", "postalCode": "96821,", "city": " Honolulu, ", "countryCode": " USA,", "region": " Hawaii" },
+    "location": { "address": "1914 Ala Mahamoe street", "postalCode": "96821,", "city": " Honolulu,", "countryCode": " USA", "region": "Hawaii," },
     "profiles": [
       { "network": "github", "username": "ellaself", "url": "https://github.com/ellaself" },
       { "network": "linkedin", "username": "ellaself", "url": "www.linkedin.com/in/ella-self-3b869b368" },
