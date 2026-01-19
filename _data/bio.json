@@ -11,7 +11,7 @@
     "profiles": [
       { "network": "github", "username": "ellaself", "url": "https://github.com/ellaself" },
       { "network": "linkedin", "username": "ellaself", "url": "www.linkedin.com/in/ella-self-3b869b368" },
-      { "network": "instagram", "username": "ella.Redfern", "url": "https://www.instagram.com/ella.redfern/" }
+      { "network": "instagram", "username": "ella.redfern", "url": "https://www.instagram.com/ella.redfern/" }
     ]
   },
   "interests": [
@@ -77,7 +77,7 @@
   ],
   "volunteer": [
     {
-      "organization": " CIRP Lab",
+      "organization": "CIRP Labs",
       "website": "http://manoa.hawaii.edu/reis",
       "position": "",
       "startDate": "2025/22/08",
@@ -93,7 +93,7 @@
       "title": "UH Mānoa Ka'ie'ie Scholarship",
       "date": "2025",
       "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming transfer students and undergraduate Students through Hawai'i instutions."
+      "summary": "This scholarships is awarded to incoming transfer students and undergraduate Students through Hawai'i instutions."
     }
   ],
   "references": [
