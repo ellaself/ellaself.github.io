@@ -7,7 +7,7 @@
     "phone": "(808) 388-7784",
     "website": "https://ellaself.github.io",
     "summary": "I am currently an undergraduate student at the University of Hawai‘i at Mānoa, pursuing my Bachelor's degree in Computer Science. I  have earned my degree AS in Spring of 2025 and expect to receive my degree BS in fall of 2027. ",
-    "location": { "address": "1914 Ala Mahamoe street", "postalCode": "96821,", "city": " Honolulu,", "countryCode": " USA", "region": "Hawaii," },
+    "location": { "address": "1914 Ala Mahamoe street", "postalCode": "96821,", "city": " Honolulu", "countryCode": " USA", "region": "Hawaii," },
     "profiles": [
       { "network": "github", "username": "ellaself", "url": "https://github.com/ellaself" },
       { "network": "linkedin", "username": "ellaself", "url": "www.linkedin.com/in/ella-self-3b869b368" },
@@ -36,8 +36,8 @@
       "institution": "Kapi'olani Community College, Honolulu ",
       "area": "Computer Science and Natural Sciences (ASNS)",
       "studyType": "Associates",
-      "startDate": "08/12/2022",
-      "endDate": "05/15/2025",
+      "startDate": "2022/12/08",
+      "endDate": "2025/15/05",
       "courses": [
       ]
     }, 
@@ -45,7 +45,7 @@
       "institution": "University of Hawai'i, Honolulu ",
       "area": "Computer Science ",
       "studyType": "Bachelors",
-      "startDate": "05/28/2022",
+      "startDate": "2022/28/05",
       "endDate": "Current",
       "courses": [
       ]
@@ -56,8 +56,8 @@
       "company": "UH Manoa Department of Sustainability",
       "position": "Data Energy Analyst",
       "website": "https://www.hawaii.edu/sustainability/",
-      "startDate": "8/12/2025",
-      "endDate": "Present",
+      "startDate": "2025/12/08",
+      "endDate": "current",
       "summary": "",
       "highlights": [
         "My job is to assist in data visualization and analysis of UH Mānoa’s power grid.I am tasked with collecting data and providing information on where to best allocate our resources for energyefficiency. As well as help develop packages to lobby for renewable energy projects across UH campuses."
@@ -67,7 +67,7 @@
       "company": "Sparky Surf School",
       "position": "Surf Instructor",
       "website": "https://www.sparkyssurfschool.com",
-      "startDate": "06/09/2025",
+      "startDate": "2025/09/06",
       "endDate": "Present",
       "summary": "",
       "highlights": [
@@ -80,7 +80,7 @@
       "organization": "CIRP Lab",
       "website": "http://manoa.hawaii.edu/reis",
       "position": "",
-      "startDate": "08/22/2025",
+      "startDate": "2025/22/08",
       "endDate": "Present",
       "summary": "",
       "highlights": [
@@ -91,7 +91,7 @@
   "awards": [
     {
       "title": "UH Mānoa Ka'ie'ie Scholarship",
-      "date": "202",
+      "date": "2025",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming transfer students and undergraduate Students through Hawai'i instutions."
     }
