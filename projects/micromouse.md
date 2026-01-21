@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/micromouse/spanish-scholarship.png
 title: "Micromouse"
 date: 2015
 published: true
