@@ -12,8 +12,6 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-
- ## Prelude… 
  
 I spend many nights late, agonizing nights contemplating my life decisions. I’d wake up at 3 in the morning feeling the tension in my jaw. With my eyes heavy and my body felt like the air gained 20 pounds. I’d spend hours tossing and turning,  asking myself  “what should I do…. Can I do that?!” 
 
