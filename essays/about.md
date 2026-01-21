@@ -3,10 +3,11 @@ layout: essay
 type: essay
 title: "So… Tell Me About Yourself"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2026-01-21
 published: true
 labels:
   - Engineering
+  - Data Analytics
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
@@ -17,6 +18,7 @@ So if you have read any of my other posts, I’ve spent my fair share of writing
 
 
 ## A little background… 
+
 
 I am from Haiku, the north shore of Maui. It was an amazing place to grow up! As a kid, I spent my free time dirt biking in cane fields and surfing at my homebreak, Ho’okipa.
 
