@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/spanish-scholarships.png
+image: img/cotton/spanish.png
 title: "Spanish Counter"
 date: 2024
 published: true
