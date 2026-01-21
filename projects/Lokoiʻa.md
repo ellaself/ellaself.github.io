@@ -1,6 +1,6 @@
 ---
-layout: Project
-type: Video Game
+layout: project
+type: project
 image: img/micromouse/micromouse-square.jpg
 title: " Lokoiʻa"
 date: 2023
