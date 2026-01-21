@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "How Much Time Do You Have?"
 # All dates must be YYYY-MM-DD format!
-date: 2026-21-01
+date: 2026-01-21
 published: true
 labels:
   - coding
