@@ -11,9 +11,11 @@ labels:
 summary: "My ICS 211 final project and videogame"
 ---
 
-<img class="img-fluid" src="../img/micromouse/fishy.png">
-<img class="img-fluid" src="../img/micromouse/code.png">
-<img class="img-fluid" src="../img/micromouse/da_Fish.png">
+<div class="text-center p-4">
+  <img width="200px" src="../img/micromouse/fishy.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/code.png" class="img-thumbnail" >
+  <img width="200px" src="../img/micromouse/da_Fish.png" class="img-thumbnail" >
+</div>
 
 
 During my sophomore year, my classmates and I developed a text based fishing competition game. Where we implemented object oriented programming to allow users to interact with a simulated fishing pond. The purpose of this final project was to combine Hawaiian cultural practices with programming principles. 
