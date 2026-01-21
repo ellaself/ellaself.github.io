@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/RPS2.png
+image: img/micromouse/RSP2.png
 title: "Rock, Paper, Sciccors"
 date: 2024
 published: true
