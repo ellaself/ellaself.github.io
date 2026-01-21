@@ -1,9 +1,9 @@
 ---
-layout: project
-type: project
+layout: Project
+type: Video Game
 image: img/micromouse/micromouse-square.jpg
-title: " lokoiʻa"
-date: 2015
+title: " Lokoiʻa"
+date: 2023
 published: true
 labels:
   - video games 
