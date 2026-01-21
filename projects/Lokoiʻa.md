@@ -1,7 +1,7 @@
 ---
 layout: Project
 type: Video Game
-image: img/micromouse/micromouse-square.jpg
+image: img/micromouse/spanish-scholarships.png
 title: " Lokoiʻa"
 date: 2023
 published: true
