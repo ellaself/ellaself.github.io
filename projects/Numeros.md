@@ -13,7 +13,7 @@ summary: "this project is a number counter from 1 to 1000+ in a foreign language
 
 <img class="img-fluid" src="../img/cotton/numeros.png">
 
-// Lós numeros is text-based study tool that I developed using the functions and with C programming. This was built with the intent to fulfill assignment requirements as well as support learning from humanities classes. 
+Lós numeros is text-based study tool that I developed using the functions and with C programming. This was built with the intent to fulfill assignment requirements as well as support learning from humanities classes. 
 
 To give you a for instance of this interactive program: 
 
@@ -22,7 +22,7 @@ To give you a for instance of this interactive program:
 <pre>
 
    
-1 = uno
+ 1 = uno
  2 = dos
  3 = tres
  4 = cautro
