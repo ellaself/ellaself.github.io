@@ -6,7 +6,7 @@ title: "So… Tell Me About Yourself"
 date: 2026-01-21
 published: true
 labels:
-  - Engineering
+  - Coding
   - Data Analytics
 ---
 
