@@ -15,7 +15,7 @@ summary: "this project is a number counter from 1 to 1000+ in a foreign language
 
 // Lós numeros is text-based study tool that I developed using the functions and with C programming. This was built with the intent to fulfill assignment requirements as well as support learning from humanities classes. 
 
-to give you a for instancem of this interactive program: 
+To give you a for instance of this interactive program: 
 
 <hr>
 
