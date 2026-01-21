@@ -11,8 +11,7 @@ labels:
 summary: "My ICS 212 rock, paper, scissors interactive game"
 ---
 
-  <img width="400px" src="../img/micromouse/RPS.png.jpg" class="img-thumbnail" >
-
+<img class="img-fluid" src="../img/cotton/RPS.png.jpg">
 
 Below is a code segment from my project:
 
