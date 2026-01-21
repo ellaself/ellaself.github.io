@@ -1,7 +1,7 @@
 ---
 layout: Project
 type: Video Game
-image: img/micromouse/spanish-scholarships.png
+image: img/micromouse/micromouse-square.jpg
 title: " Lokoiʻa"
 date: 2023
 published: true
@@ -10,6 +10,7 @@ labels:
   - java
 summary: "My ICS 211 final project and videogame"
 ---
+
 
 During my sophomore year, my classmates and I developed a text based fishing competition game. Where we implemented object oriented programming to allow users to interact with a simulated fishing pond. The purpose of this final project was to combine Hawaiian cultural practices with programming principles. 
 
@@ -39,4 +40,6 @@ public Fish(String name, String bodyColor, String finColor, String food) {
     }
 
 ```
+
+
 
