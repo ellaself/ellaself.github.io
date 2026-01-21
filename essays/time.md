@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "How Much Time Do You Have?"
+title: "How Much Time Do You Really Have?"
 # All dates must be YYYY-MM-DD format!
 date: 2026-01-21
 published: true
