@@ -6,7 +6,7 @@ title: "How Much Time Do You Really Have?"
 date: 2026-01-21
 published: true
 labels:
-  - coding
+  - Time Management
   - progamming
 ---
 
