@@ -14,6 +14,7 @@ labels:
 
 
  ## Prelude… 
+ 
 I spend many nights late, agonizing nights contemplating my life decisions. I’d wake up at 3 in the morning feeling the tension in my jaw. With my eyes heavy and my body felt like the air gained 20 pounds. I’d spend hours tossing and turning,  asking myself  “what should I do…. Can I do that?!” 
 
 Only to wake up in my junior year, realizing years of nail biting and teeth grinding had finally eroded my teeth. The years of sleepless nights and waking up at 4 a.m. made my eyes hollow and sullen. In other words, how I was spending my time was catching up to me. I was a nervous mess. So terrified to make a wrong decision, I usually never made one.  
