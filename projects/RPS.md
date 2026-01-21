@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/micromouse/RPS2.png
-title: "Rock, Paper, Sciccors Game"
+title: "Rock, Paper, Sciccors"
 date: 2024
 published: true
 labels:
