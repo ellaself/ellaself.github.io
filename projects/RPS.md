@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/pond.png
+image: img/micromouse/RPS2.png
 title: "Rock, Paper, Sciccors Game"
 date: 2024
 published: true
