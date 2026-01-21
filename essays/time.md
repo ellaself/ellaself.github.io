@@ -7,7 +7,7 @@ date: 2026-01-21
 published: true
 labels:
   - Time Management
-  - progamming
+  - Progamming
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
