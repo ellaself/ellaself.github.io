@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/spanish-scholarship.png
+image: img/micromouse/pond.png
 title: "Lokoiʻa"
 date: 2023
 published: true
