@@ -12,9 +12,9 @@ summary: "My ICS 211 final project and videogame"
 ---
 
 <div class="text-center p-4">
-  <img width="300px" src="../img/micromouse/fishy.png" class="img-thumbnail" >
-  <img width="300px" src="../img/micromouse/code.png" class="img-thumbnail" >
-  <img width="300px" src="../img/micromouse/da_Fish.png" class="img-thumbnail" >
+  <img width="400px" src="../img/micromouse/fishy.png" class="img-thumbnail" >
+  <img width="400px" src="../img/micromouse/code.png" class="img-thumbnail" >
+  <img width="400px" src="../img/micromouse/da_Fish.png" class="img-thumbnail" >
 </div>
 
 
