@@ -11,6 +11,10 @@ labels:
 summary: "My ICS 211 final project and videogame"
 ---
 
+<img class="img-fluid" src="../img/micromouse/fishy.png">
+<img class="img-fluid" src="../img/micromouse/code.png">
+<img class="img-fluid" src="../img/micromouse/da_Fish.png">
+
 
 During my sophomore year, my classmates and I developed a text based fishing competition game. Where we implemented object oriented programming to allow users to interact with a simulated fishing pond. The purpose of this final project was to combine Hawaiian cultural practices with programming principles. 
 
@@ -18,7 +22,8 @@ As for the mechanics of the game itself, players through a series of choices, co
 
 
 Here is some code to intergated the defining standards for what would advance players:
-
+<hr>
+  
 ```cpp
 public Fish(String name, String bodyColor, String finColor, String food) {
         this(name, bodyColor, finColor, food, (int) (Math.random() * 1000) + 1); 
@@ -41,5 +46,5 @@ public Fish(String name, String bodyColor, String finColor, String food) {
 
 ```
 
-
+<hr>
 
