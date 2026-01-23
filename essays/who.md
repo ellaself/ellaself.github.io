@@ -16,7 +16,7 @@ The works of Plato, Socrates, and Aristotle were pivotal in my development as a 
 
 As time went on, I began to branch out into political philosophy. Where I was introduced to an idea called "social contract" theory. According to the Internet Encyclopedia of Philosophy, the social contract states that “persons’ moral and/or political obligations are dependent upon a contract or agreement among them to form the society in which they live.” This concept has informed the inner workings of social and political structures, particularly within Western civilizations.
 
-## are you holding up your end? 
+## Are you holding up your end? 
 
 There have been many political philosophers that have contributed thoughts and nuances to social contract theory. However, the philosopher that stands out foremost in my mind is Jean-Jacques Rousseau. He regarded the general public as the ‘sovereign,’ or a collective of individuals with a unified will. Whereby the sovereign may hold many different outlooks and desires, they prize the collective over the individual. 
 
