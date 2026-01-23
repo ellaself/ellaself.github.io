@@ -10,7 +10,7 @@ labels:
   - Progamming
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" src="../img/cotton/time.jpg">
 
  
 I spend many nights late, agonizing nights contemplating my life decisions. I’d wake up at three in the morning feeling the tension in my jaw. My eyes heavy, and my body felt half submerged in rubber cement. I’d spend hours tossing and turning, asking myself, “What should I do…. Can I do that?!”
