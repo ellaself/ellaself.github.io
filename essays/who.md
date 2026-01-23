@@ -12,23 +12,24 @@ labels:
 
 <img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
 
-## Oh, so you're a philosopher now?....
+The works of Plato, Socrates, and Aristotle were pivotal in my development as a child. Introducing me to different schools of thought and philosophies. As I began to explore the world of discord, I came across two opposing schools of thought, altruism and egoism. With altruism asserting that people are primarily motivated to intrinsically want to help others, despite self-interest. While egoism prioritizes one's own self-interest over the well-being of others. 
 
-I watched philosophy channels from a young age, never being much of a reader.  At a young age, I was introduced to different schools of thought as well as ethics. From this, I became a believer in altruism rather than egoism. Or rather, I think that the self takes a back seat to the “common good”. Not the other way around. 
+As time went on, I began to branch out into political philosophy. Where I was introduced to an idea called "social contract" theory. According to the Internet Encyclopedia of Philosophy, the social contract states that “persons’ moral and/or political obligations are dependent upon a contract or agreement among them to form the society in which they live.” This concept has informed the inner workings of social and political structures, particularly within Western civilizations.
 
-Additionally, I was introduced to  social contracts theory. According to the Internet Encyclopedia of Philosophy, the social contract states that “persons’ moral and/or political obligations are dependent upon a contract or agreement among them to form the society in which they live.” There have been many political philosophers that have contributed their thoughts and own definitions to this theory. However, the one that stands out foremost in my mind is Jean-Jacques Rousseau. He regarded the general public as the ‘sovereign,’ or a collective of individuals with a unified will. Whereby the sovereign may hold many different outlooks and desires, they prize the collective over the individual and contribute to the common good. 
+## are you holding up your end? 
 
+There have been many political philosophers that have contributed thoughts and nuances to social contract theory. However, the philosopher that stands out foremost in my mind is Jean-Jacques Rousseau. He regarded the general public as the ‘sovereign,’ or a collective of individuals with a unified will. Whereby the sovereign may hold many different outlooks and desires, they prize the collective over the individual. 
 
-## Why are you telling me this?...
+With this in mind, I've been contemplating my social obligations. In what ways am I upholding or breaking my social contracts? How do I contribute to my community?
 
-Something that I've been contemplating since my sophomore year are my social obligations. What ways am I breaking my social contracts? In other words, How can I contribute more?
+Moreover, as time went on, results were no longer a motivator.  I looked back at my academic career and found myself saying, "Is that it… is that all I've done?" At that point in my life, I needed something bigger than myself.  I needed my "why." 
 
-I have lofty goals. I also believe that technology is a tool and is meant to contribute to progress.  At every point I have faced adversity or doubt, I am reminded of my “why”. Why am I doing this? Why am I here? 
+## Why am I here?
 
-Over the years, I’ve shied away from difficult courses, changed my major, and have altogether contemplated dropping out. The only thing that's prevented me from this is the comfort of knowing I have something to give. That I have something to contribute, I just don't have the skill yet to make it a reality.  
+I came to realize that the promises of tomorrow are based off of the commitments I make today. Over the years, I’ve shied away from difficult courses, changed my major a few times, and altogether contemplated dropping out. The only thing that has prevented me from this is knowing that I have something to give. That each challenge is an opportunity to be better than I was. To then take what I have learned and direct it towards helping my community. In other words, it's not about me; it's about what I can eventually do for others. 
 
-## And what about programming?… 
+## Why computer science? 
 
-This train of thought has never been more evident than in my ICS classes. Late nights, rabbit holes of youtube tutorials, and compiler errors longer than my forearm. When you sit with this discomfort, and push through there is nothing more rewarding than when you get it. “It” in the sense of something that existed in the maras of your mind, is now in front of you. 
+Every day I try to remind myself of this. When I fall down rabbit holes of YouTube tutorials. When I study a 30-year-old programming textbook. Or, when I pull all-nighters to handle compiler errors longer than my forearm. I now view each challenge as a stepping stone on the path to becoming a better programmer. 
 
-Moving forward, I earnestly try to learn as much as I can & remember why I am studying computer science. I view each subject as a stepping stone on the path of my personal development as a programmer. Acquiring all the “tools” in my tool belt to actively uphold my end of the social bargain and make a difference in my community. To be the change that I want to see in the world and not idly wait for somebody else to do it. In other words, if not you then who? 
+From my efforts, I will be able to fulfill my social contract and make a difference in my community. With the end goal of being the change that I want to see in the world and not idly waiting for it to happen. if not you, then who? 
