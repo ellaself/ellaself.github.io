@@ -10,7 +10,7 @@ labels:
   - Learning
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/micromoause/community.jpg">
 
 The works of Plato, Socrates, and Aristotle were pivotal in my development as a child. Introducing me to different schools of thought and philosophies. As I began to explore the world of discord, I came across two opposing schools of thought, altruism and egoism. With altruism asserting that people are primarily motivated to intrinsically want to help others, despite self-interest. While egoism prioritizes one's own self-interest over the well-being of others. 
 
