@@ -13,6 +13,11 @@ summary: "My ICS 212 rock, paper, scissors interactive game"
 
 <img class="img-fluid" src="../img/micromouse/RPS.png.jpg">
 
+This is one of my first C-based projects that I created during my time in ICS 212. My interactive text-based game for rock paper scissors used user inputs, random generation, & score keeping. Calling on CompTurn() and the while statement allows for the game's functionality. While the player makes decisions based off the printInstruct() function. 
+
+Throughout a series of choices & turns, the tallied and scored total was computed from the calcWinner(comp, user) function.  Resulting in the output of the winner being 'u' for user, 'c' for computer, & 't' for tie. Otherwise, the program would determine that the user misrepresented or mistyped their response, and the console would allow for entering another value. 
+
+
 Below is a code segment from my project:
 
 <hr>
