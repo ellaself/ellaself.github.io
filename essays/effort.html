@@ -1,40 +1,53 @@
 ---
 layout: essay
 type: essay
-title: "What Makes a Good Software?"
+title: "How to Find the Time"
 date: 2026-04-28
 author: Ella Self
 published: true
 labels:
   - Reflection
   - Final Project 
-  - Design Patterns
-  - Web Development 
+  - Effort Estimates 
+  - Ime Management 
 
 ---
+time
+<img src="/img/micromouse/time-effort.png" alt="TypeScript Logo" class="img-fluid float-start pe-4" style="max-width: 30%;">
 
-<img src="/img/micromouse/webdesign.png" alt="TypeScript Logo" class="img-fluid float-start pe-4" style="max-width: 30%;">
-
-<h2>From what you have learned, what can you tell me about Design Patterns?</h2>
+<h2>How to be realistic about outcomes within time constraints… </h2>
 
 <p>
-  To the best of my knowledge, design patterns are the ways in which systems of object-oriented programming are constructed, maintained, and executed. I think of them as the architectural frameworks of any good program. Moreover, they are somewhat replicatable, which represents the “pattern” aspect. From what I have learned, there are three categories of design patterns. The first of which is the creational category that describes how objects are formed. Then there’s the structural category that denotes how objects are interlinked. As well as the behavioral category in which it details how these objects function.
+In terms of my ability to manage expectations and properly estimate times to complete specific tasks, I largely based all of my initial time constraints off of previous WODs and at-home assignments from this course. Moreover, I look at the initial problem that I was trying to handle within our final project. I would visualize what the UI was meant to look like and how my code was needed to function. From there, I would try to understand the scope of my issue and how my code would interact with the rest of our program. This helped me to better discern the complexity of my work, as well as the amount of time I needed to dedicate to completing my tasks. 
 </p>
 
-<h2>Can you give us some examples??</h2>
+<h2>When thought is put into practice…</h2>
 <p>
- A few of the patterns that I have learned about are the Singleton, Factory, Observer, and Controller. Within traditional coding practices, we can use instances, constructors, and methods to return objects. However, with the Singleton, you can create global variables where objects passed through by reference. This creational pattern's built-in property eliminates the need for constructors and methods within JavaScript. Then there is the factory pattern that allows for objects to be called from a database and is found when using interfaces. Being a creational pattern, this software allows for game development, notifications, and payment gateways.
-</p>
-
-<p>
-  Additionally, there is the observer pattern that acts as an event handler that updates your system. This behavioral pattern allows for user interface functionality, such as inputting information. Finally, we have the Model-View-Controller, a behavioral design pattern that affects the components that the user can view. Much like a controller that alters the methods of execution. These designs are not hardset. Instead, they allow for frameworks to build on and provide outlines for solving complex problems.
-</p>
-
-<h2>How did these Design Patterns show up in your final project?</h2>
-<p>
-  With that in mind, here are some of the design patterns that I used throughout our final project. Instances such as factory patterns can be found with the queries to our database in  <code> const games = await prisma.game.findMany();</code> or <code> const players = await prisma.player.findMany(); <c/ode>. This helped us to create arrays of our objects that are represented within the players cards. Additionally, I used examples of singleton patterns, such as <code> import { prisma } from '@/lib/prisma' <code>. This allowed us to share prisms throughout our app, better managing our database and preventing multiple connections. 
+However, where I miscalculated was how I defined my task. Truthfully, I did work that should've been broken up into multiple branches and segments that should have been handled individually. Instead, I decided to lump all the work together. As a result, a seemingly simple and vague task quickly devolved into a 4-hour issue. Where I faltered was not in the time allotted to handle an issue, but in using a single branch to host a number of issues that overtook my time and workload. 
 </p>
 
 <p>
-  Not to mention the use of Observer patterns with <code> const [favorites, setFavorites] = useState([]); </code>. As well as <code> setFavorites((prev) => prev.filter(…)) </code>. Both of which update the UI to reflect changes of its state within React. Moreover, we implemented event handlers with <code> onClick={() => onToggleLibrary(game.id)} </code> and <code> onClick={() => onRemove(game.id)}</code>. Not to mention,  use of Controller patterns through implementing client logic of our API/library. To control the data flow between the user interface and the database is best seen in the line <code>export async function POST(req) { ... } <code>. In addition, we implemented  <code> async function handleAdd(gameId: number) { await fetch('/api/library', { method: 'POST' }); } <code>.
+Moreover, I think that there are benefits in having foresight and time management within a major project. For instance, while working on Milestone 2, we had to get the majority of our issues and code completed before we could create our Playwright script. If we ran into issues, we had our foundation in place and could refine our work. This saved us time and prevented last-minute roadblocks to completing our milestones. However, I consider this practice to be a hierarchy that manages priorities, rather than practicing time estimation.
 </p>
+
+<h2>Contemplation of efficiency and results… </h2>
+<p>
+ With that in mind, I did not find the time estimate to be useful. This is not to say that the tenets of time management and meeting expectations are not great practices. Just that the timed constraints are not conducive to my work outcomes. I felt that adding timers to my coding did not aid in understanding and rushed my learning process. Moreover, these timers made me feel inadequate as a programmer for not meeting arbitrary timelines. 
+</p>
+
+<p>
+What I find is most conducive to my learning outcomes is setting aside a little bit of time every day to handle coding issues. With larger work loads dedicated to longer days or time segments. To put it simply, I work best by not timing my work with a stopwatch. But rather, I perform better when the time is broken up within specific time frames without the pressure of beating the clock. All of this to say, I believe a fresh-eyes and fresh-mind approach maximizes your results. 
+</p>
+
+
+<h2>Reflection on data collection and accuracy… </h2>
+
+<p>In terms of how I kept track of my coding times, I had used the timer and stopwatch built into my iPhone. As I would create issues, I would list an initial estimate within the description section. Before I started my work, I would begin a timer and later use a stopwatch to better reflect actual times. Once I hit a roadblock, I would start a second stopwatch and periodically add to the time as I researched and found solutions. Then, I would comment on the actual time under my GitHub branch once a task was completed. By Milestone 2, I began adding information directly into the table of the effort estimates and would tack on additional time if the task took multiple days to complete. </p>
+
+
+<p>  That being said, I think my times were accurate, though I could have been more structured about how I cataloged my times. Aside from loving a good spread sheet, I believe that I should have thought through the complexity of my task and broken it up into smaller segments. This would have better reflected my initial coding time estimates and saved on non-coding time.</p>
+
+
+<h2>Implementing AI throughout the coding process… </h2>
+
+<p>As for my use of AI throughout this project, I used ChatGPT, GPT-5.5 series, to aid in my coding process. I prompted the model with instances such as “Help adjust the border coloring on my modal cards." Or “Please fix my toggler on my search bar icon to color: rgb(65, 132, 255)." This would usually steer me in the right direction, with many of my prompts being basic and nonspecific to my project. This resulted in many caveats and UI implementations that would need to be integrated after my initial prompt. My time spent asking for correction to my code or initial scaffolding was dismal in comparison to my actual coding time. I would say only a third of the code generated did not have to be modified in some way.</p>
