@@ -28,7 +28,7 @@ html,
 body,
 main,
 section {
-  background-color: var(--tf-lavender4) !important;
+   background-color: white !important;
 }
 
 /* Bootstrap containers should not block the lavender background */
