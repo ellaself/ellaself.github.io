@@ -1,14 +1,15 @@
 ---
 layout: project
 type: project
-image: img/micromouse/RSP2.png
-title: "Rock, Paper, Sciccors"
+image: https://uh-gamelink.github.io/img/M3/home-pg.png
+title: "UH-GameLink"
 date: 2024
 published: true
 labels:
-  - video games 
-  - C
-summary: "My ICS 212 rock, paper, scissors interactive game"
+  - video games
+  - app
+  - final project 
+summary: "ICS 314 Final Project and app that allows students on UH Mānoa's campus to connect across gamming plateforms"
 ---
 
 <img class="img-fluid" src="https://uh-gamelink.github.io/img/M3/home-pg.png">
