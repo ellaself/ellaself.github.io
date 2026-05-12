@@ -25,9 +25,7 @@
 
 /* Full page background */
 html,
-body,
-main,
-section {
+body {
    background-color: white !important;
 }
 
