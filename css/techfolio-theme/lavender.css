@@ -30,9 +30,23 @@
   --tf-projects-bg-color: var(--tf-lavender4);
 }
 
-/* Entire page background */
+html,
 body {
-  background-color: var(--tf-lavender4);
+  background-color: var(--tf-lavender4) !important;
+}
+
+/* Main content areas */
+main,
+.container,
+.container-fluid {
+  background-color: transparent;
+}
+
+/* If your page content uses a wrapper */
+.tf-page,
+.page-content,
+.content {
+  background-color: var(--tf-lavender4) !important;
 }
 
 /* Headings */
