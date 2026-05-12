@@ -1,10 +1,8 @@
-/* Lavender Theme: modifies the default theme to use lavender tones in various places. */
+/* Lavender Theme */
 
-/* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* Root Variables */
 :root {
   --tf-lavender1: #8e6bbf;
   --tf-lavender2: #a07ccf;
@@ -12,47 +10,49 @@
   --tf-lavender4: #efe6ff;
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
-
+  --bs-body-bg: var(--tf-lavender4);
+  --bs-body-color: #4b2e68;
   --bs-link-color: var(--tf-lavender1);
 
   --tf-pill-bg: var(--tf-lavender3);
-
   --tf-icon-fill: var(--tf-lavender1);
   --tf-icon-hover: var(--tf-lavender3);
 
-  /* MAIN PAGE BACKGROUND */
   --tf-page-bg-color: var(--tf-lavender4);
-
-  /* FOOTER */
   --tf-footer-bg-color: var(--tf-lavender1);
-
-  /* PROJECTS / BODY SECTIONS */
   --tf-projects-bg-color: var(--tf-lavender4);
 }
 
+/* Full page background */
 html,
-body {
+body,
+main,
+section {
   background-color: var(--tf-lavender4) !important;
 }
 
-/* Main content areas */
-main,
+/* Bootstrap containers should not block the lavender background */
 .container,
 .container-fluid {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
-/* If your page content uses a wrapper */
-.tf-page,
-.page-content,
-.content {
-  background-color: var(--tf-lavender4) !important;
+/* Cards/white boxes */
+.card,
+.card-body,
+.card-footer,
+.list-group-item {
+  background-color: #fbf8ff !important;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5 {
-  color: var(--tf-lavender1);
-  font-family: Rubik;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #4b2e68;
+  font-family: Rubik, sans-serif;
 }
 
 /* Header/Navbar */
@@ -62,12 +62,6 @@ h1, h2, h3, h4, h5 {
   background-color: var(--tf-lavender1) !important;
 }
 
-/* Footer */
-footer {
-  background-color: var(--tf-lavender1) !important;
-  color: white;
-}
-
 /* Navbar text */
 .navbar a,
 .navbar-brand,
@@ -75,10 +69,20 @@ footer {
   color: white !important;
 }
 
+/* Footer */
+footer {
+  background-color: var(--tf-lavender1) !important;
+  color: white;
+}
+
+footer a {
+  color: white !important;
+}
+
 /* Social icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-lavender1);
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -90,6 +94,24 @@ footer {
 }
 
 a {
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-brand-mobile {
+    display: inline;
+  }
+}
+
+.rounded-circle {
+  border-color: var(--tf-lavender1);
+  border-style: solid;
+  border-width: 3px;
+}a {
   text-decoration: none;
 }
 
