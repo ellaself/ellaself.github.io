@@ -3,7 +3,7 @@ layout: project
 type: project
 image: https://uh-gamelink.github.io/img/M3/home-pg.png
 title: "UH-GameLink"
-date: 2024
+date: 2026
 published: true
 labels:
   - video games
