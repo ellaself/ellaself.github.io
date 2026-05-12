@@ -14,68 +14,12 @@ summary: "ICS 314 Final Project and app that allows students on UH Mānoa's camp
 
 <img class="img-fluid" src="https://uh-gamelink.github.io/img/M3/home-pg.png">
 
-This is one of my first C-based projects that I created during my time in ICS 212. My interactive text-based game for rock paper scissors used user inputs, random generation, & score keeping. Calling on CompTurn() and the while statement allows for the game's functionality. While the player makes decisions based off the printInstruct() function. 
+UH GameLink is a web application that helps University of Hawaiʻi students connect through their love of video games. Students who play games casually or competitively have difficultly finding other UH students with similar interests, schedules, or favorite games. This project aims to make it easier for students to meet new people, discover gaming communities, and build connections through shared games.
 
-Throughout a series of choices & turns, the tallied and scored total was computed from the calcWinner(comp, user) function.  Resulting in the output of the winner being 'u' for user, 'c' for computer, & 't' for tie. Otherwise, the program would determine that the user misrepresented or mistyped their response, and the console would allow for entering another value. 
+Our intentions for UH GameLink were to have a centralized platform that allowed for UH students to find others who play the same games and share each other's interests. We built this app with the hope that people will connect with others for casual play, teamwork, and community involvement. Moreover, we wanted students to be able to network with people they had common ground with. Which is why our application includes a community page to view gaming-related Discord servers, groups, and events. 
 
+For this experience, we have had the opportunity to develop innovative solutions to address real-world problems. Putting into practice the web development languages that we have learned throughout the semester, including HTML, CSS, JavaScript, and TypeScript. Deploying the use of functional programming, mastery of UI design, and collaboration in team efforts. The end result is a project that showcases the many skills and values we have learned from our software development course.
 
-Below is a code segment from my project:
+To view the work we have done, here is a link to the Github repository of [UH-GameLink](https://github.com/uh-gamelink/uh-gamelink-app)
 
-<hr>
-  
-```cpp
-
-void printInstruct(void);
-int  CompTurn(void);    
-int calcWinner(int, int);
-
-int main(void){
-
-     //random seeding 
-     srand(time(NULL));
-     char user = 'a';
-     int comp; 
-     int input = 0;
-     int winner; 
-     int userScore = 0, compScore = 0, tieScore = 0; 
-
-    while(user != EOF){
-         printInstruct();
-         user = getchar();    
-         if (user != EOF){
-            getchar();
-            printf("User entered %c\n", user);
-            comp = CompTurn();
-            printf("Computer Chose %c\n", comp);
-            winner = calcWinner(comp, user);
-                while (input > 0){
-                    if (winner == 'u'){
-                        userScore++;
-                    } else if (winner == 'c') {
-                        compScore++;
-                        printf("You have chosen to quit\n");
-                    } else if (winner == 't') {
-                        tieScore++;
-                    } else {
-                        printf("Invalide option");
-                    }
-                }
-            
-             printf("Got %c\n", winner);
-
-         } else {  
-            printf("You have chosen to quit\n");
-            printf("thank you for playing\n");
-            printf("Here is the total score\n");
-            
-            printf("Computer wins: %c\n", compScore);
-            printf("user wins: %c\n", userScore);
-            printf("ties: %c\n", tieScore);
-        } 
-    }
-    return 0;
-} 
-
-```
-
-<hr>
+To see our application, please visit [site](https://uh-gamelink.vercel.app)
