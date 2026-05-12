@@ -1,39 +1,39 @@
-/* Rubik Theme: modifies the default theme to use the chunkier Rubik for the header fonts. */
+/* Lavender Theme: modifies the default theme to use lavender tones in various places. */
 
-/* Use Open Sans as the default font and Roboto for headlines */
+/* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* Lavender color theme */
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
+  --tf-lavender1: #8e6bbf;
+  --tf-lavender2: #a07ccf;
+  --tf-lavender3: #c5a3ff;
+  --tf-lavender4: #efe6ff;
+
   --bs-font-sans-serif: "Open Sans", sans-serif;
 
-  /* Main accent colors */
-  --bs-primary: #b57edc;
-  --bs-link-color: #9b59b6;
+  --bs-link-color: var(--tf-lavender1);
 
-  /* Custom theme colors */
-  --tf-pill-bg: #e6d6f5;
-  --tf-icon-fill: #b57edc;
-  --tf-icon-hover: #9b59b6;
+  --tf-pill-bg: var(--tf-lavender3);
 
-  /* Backgrounds */
-  --tf-page-bg-color: #faf7ff;
-  --tf-footer-bg-color: #ede4f7;
-  --tf-projects-bg-color: #f3ecfb;
+  --tf-icon-fill: var(--tf-lavender1);
+  --tf-icon-hover: var(--tf-lavender3);
 
-  /* Optional text colors */
-  --bs-body-color: #4b3b5a;
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--tf-lavender4);
+  --tf-projects-bg-color: var(--tf-lavender4);
 }
 
 h1, h2, h3, h4, h5 {
+  color: var(--tf-lavender1);
   font-family: Rubik;
 }
 
 /* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-icon-fill);
+  fill: var(--tf-lavender1);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -58,8 +58,8 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
-.card-footer {
-  background-color: var(--bs-white);
-  border-top: none;
+.rounded-circle {
+  border-color: var(--tf-lavender1);
+  border-style: solid;
+  border-width: 1px;
 }
