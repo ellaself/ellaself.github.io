@@ -74,9 +74,12 @@ h5 {
 
 /* Navbar/Header */
 .navbar,
-.bg-dark,
-.page-header {
+.bg-dark {
   background-color: var(--tf-lavender1) !important;
+}
+
+.page-header {
+  color: var(--bs-body-color)!important;
 }
 
 /* Navbar text */
