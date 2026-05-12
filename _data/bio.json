@@ -4,9 +4,8 @@
     "label": "Student",
     "picture": "https://github.com/ellaself.png",
     "email": "ellaself@hawaii.edu",
-    "phone": "(808) 388-7784",
     "website": "https://ellaself.github.io",
-    "summary": "I am currently an undergraduate student at the University of Hawai‘i at Mānoa, pursuing my Bachelor's degree in Computer Science. I  have earned my degree AS in Spring of 2025 and expect to receive my degree BS in fall of 2027. ",
+    "summary": "I am currently an undergraduate student at the University of Hawai‘i at Mānoa, pursuing my Bachelor's degree in Computer Science. I earned my degree AS during the Spring of 2025 and will receive my degree BS in fall of 2027. ",
     "location": { "address": "1914 Ala Mahamoe street", "postalCode": "96821,", "city": " Honolulu", "countryCode": " USA", "region": "Hawaii," },
     "profiles": [
       { "network": "github", "username": "ellaself", "url": "https://github.com/ellaself" },
@@ -17,7 +16,6 @@
   "interests": [
     { "name": "AI models" },
     { "name": "LLM" },
-    { "name": "Robotics" },
     { "name": "Data Anaylsis" },
     { "name": "Software Engineering" }
   ],
@@ -94,6 +92,14 @@
       "date": "2025",
       "awarder": "State of Hawaii",
       "summary": "This scholarships is awarded to incoming transfer students and undergraduate students through Hawai'i institutions."
+    }
+  ],
+    "awards": [
+    {
+      "title": "VLDB Scholarship",
+      "date": "2026",
+      "awarder": "State of Hawaii",
+      "summary": " To support regional activities related to data management research and development in Hawaii through the Department of Information and Computer Sciences at the College of Natural Sciences at the University of Hawaii at Manoa and Hilo. Funds shall be used but not limited to student scholarships [e.g. tuition, books, fees, etc.], Data Management Lecture series at UH Manoa and Data Management Workshops at High Schools across the Hawaiian Islands."
     }
   ],
   "references": [
