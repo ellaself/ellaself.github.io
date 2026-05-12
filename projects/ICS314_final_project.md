@@ -20,6 +20,6 @@ Our intentions for UH GameLink were to have a centralized platform that allowed 
 
 For this experience, we have had the opportunity to develop innovative solutions to address real-world problems. Putting into practice the web development languages that we have learned throughout the semester, including HTML, CSS, JavaScript, and TypeScript. Deploying the use of functional programming, mastery of UI design, and collaboration in team efforts. The end result is a project that showcases the many skills and values we have learned from our software development course.
 
-To view the work we have done, here is a link to the Github repository of [UH-GameLink](https://github.com/uh-gamelink/uh-gamelink-app)
+To view our, please click on this link to our Github repository at [UH-GameLink](https://github.com/uh-gamelink/uh-gamelink-app).
 
-To see our application, please visit [site](https://uh-gamelink.vercel.app)
+To see our application or join the community, please visit our [site](https://uh-gamelink.vercel.app).
