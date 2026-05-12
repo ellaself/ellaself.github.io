@@ -1,65 +1,58 @@
-/* Lavender Theme: modifies the default theme to use lavender tones in various places. */
+/* Lavender Theme */
 
 /* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* Root Variables */
 :root {
-  --tf-lavender1: #8e6bbf;
-  --tf-lavender2: #a07ccf;
+  --tf-lavender1: #5e3a87;   /* deep purple text */
+  --tf-lavender2: #8e6bbf;
   --tf-lavender3: #c5a3ff;
   --tf-lavender4: #efe6ff;
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
 
+  /* Main text/link colors */
+  --bs-body-color: var(--tf-lavender1);
   --bs-link-color: var(--tf-lavender1);
 
+  /* Accent colors */
   --tf-pill-bg: var(--tf-lavender3);
 
   --tf-icon-fill: var(--tf-lavender1);
-  --tf-icon-hover: var(--tf-lavender3);
+  --tf-icon-hover: var(--tf-lavender2);
 
-  /* MAIN PAGE BACKGROUND */
-  --tf-page-bg-color: white;
+  /* Keep page background white */
+  --tf-page-bg-color: var(--bs-white);
 
-  /* FOOTER */
-  --tf-footer-bg-color: var(--tf-lavender1);
-
-  /* PROJECTS / BODY SECTIONS */
-  --tf-projects-bg-color: white;
+  /* Optional very light lavender sections */
+  --tf-footer-bg-color: var(--bs-white);
+  --tf-projects-bg-color: var(--bs-white);
 }
 
-/* Headings */
+/* Header fonts */
 h1, h2, h3, h4, h5 {
   color: var(--tf-lavender1);
   font-family: Rubik;
 }
 
-/* Header/Navbar */
-.navbar,
-.bg-dark,
-.page-header {
-  background-color: var(--tf-lavender1) !important;
-}
-
-/* Footer */
-footer {
-  background-color: var(--tf-lavender1) !important;
-  color: white;
-}
-
-/* Optional: make navbar text white */
-.navbar a,
+/* Navbar text */
 .navbar-brand,
 .nav-link {
-  color: white !important;
+  color: var(--tf-lavender1) !important;
 }
 
-/* Social icons */
+/* Description/tagline text */
+p,
+small,
+li {
+  color: var(--tf-lavender1);
+}
+
+/* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-lavender1);
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -84,8 +77,9 @@ a {
   }
 }
 
+/* Circular image borders */
 .rounded-circle {
   border-color: var(--tf-lavender1);
   border-style: solid;
-  border-width: 3px;
+  border-width: 10px;
 }
