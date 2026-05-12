@@ -10,37 +10,56 @@
   --tf-lavender4: #efe6ff;
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-body-bg: var(--tf-lavender4);
+
+  /* Main text colors */
   --bs-body-color: #4b2e68;
   --bs-link-color: var(--tf-lavender1);
 
+  /* Theme accents */
   --tf-pill-bg: var(--tf-lavender3);
+
   --tf-icon-fill: var(--tf-lavender1);
   --tf-icon-hover: var(--tf-lavender3);
 
-  --tf-page-bg-color: var(--tf-lavender4);
+  /* Background variables */
+  --tf-page-bg-color: white;
   --tf-footer-bg-color: var(--tf-lavender1);
-  --tf-projects-bg-color: var(--tf-lavender4);
+  --tf-projects-bg-color: white;
 }
 
-/* Full page background */
+/* Entire page background */
 html,
 body {
-   background-color: white !important;
+  background-color: white !important;
+  color: var(--bs-body-color);
+  font-family: "Open Sans", sans-serif;
 }
 
-/* Bootstrap containers should not block the lavender background */
+/* Containers stay transparent */
 .container,
 .container-fluid {
   background-color: transparent !important;
 }
 
-/* Cards/white boxes */
+/* Cards */
 .card,
 .card-body,
 .card-footer,
 .list-group-item {
   background-color: #fbf8ff !important;
+  border-color: var(--tf-lavender2) !important;
+}
+
+/* Bootstrap Modals */
+.modal-content {
+  background-color: #fbf8ff !important;
+  border: 1px solid var(--tf-lavender2);
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #f4edff !important;
+  border-color: var(--tf-lavender2);
 }
 
 /* Headings */
@@ -53,7 +72,7 @@ h5 {
   font-family: Rubik, sans-serif;
 }
 
-/* Header/Navbar */
+/* Navbar/Header */
 .navbar,
 .bg-dark,
 .page-header {
@@ -82,7 +101,7 @@ footer a {
   display: inline-block;
   fill: var(--tf-icon-fill);
   height: 1.5em;
-  vertical-align: -.1em;
+  vertical-align: -0.1em;
   width: 1.5em;
   transition: 0.2s;
 }
@@ -91,10 +110,12 @@ footer a {
   fill: var(--tf-icon-hover);
 }
 
+/* Links */
 a {
   text-decoration: none;
 }
 
+/* Mobile navbar */
 @media (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -105,24 +126,7 @@ a {
   }
 }
 
-.rounded-circle {
-  border-color: var(--tf-lavender1);
-  border-style: solid;
-  border-width: 3px;
-}a {
-  text-decoration: none;
-}
-
-@media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
-
-  .navbar-brand-mobile {
-    display: inline;
-  }
-}
-
+/* Circular profile images */
 .rounded-circle {
   border-color: var(--tf-lavender1);
   border-style: solid;
