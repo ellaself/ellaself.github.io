@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://uh-gamelink.github.io/img/M3/home-pg.png
+image: img/difficulty/game_console.png
 title: "UH-GameLink"
 date: 2026
 published: true
