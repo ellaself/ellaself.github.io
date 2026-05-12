@@ -11,7 +11,7 @@ labels:
 summary: "My ICS 212 rock, paper, scissors interactive game"
 ---
 
-<img class="img-fluid" src="../img/micromouse/RPS.png.jpg">
+<img class="img-fluid" src="https://uh-gamelink.github.io/img/M3/home-pg.png">
 
 This is one of my first C-based projects that I created during my time in ICS 212. My interactive text-based game for rock paper scissors used user inputs, random generation, & score keeping. Calling on CompTurn() and the while statement allows for the game's functionality. While the player makes decisions based off the printInstruct() function. 
 
