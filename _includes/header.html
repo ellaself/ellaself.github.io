@@ -1,11 +1,34 @@
-<header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+<header class="navbar navbar-expand border-bottom"
+        style="background-color: #efe6ff;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
+    
+    <a class="navbar-brand"
+       style="color: #5e3a87; font-weight: 600;"
+       href="{{ '/' | prepend: site.baseurl }}">
+      {{ site.data.bio.basics.name }}
+    </a>
+
     <div class="ms-auto">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
-        <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a>
-        <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
+
+        <a class="nav-link"
+           style="color: #5e3a87; font-weight: 500;"
+           href="{{ '/#projects' | prepend: site.baseurl }}">
+          Projects
+        </a>
+
+        <a class="nav-link"
+           style="color: #5e3a87; font-weight: 500;"
+           href="{{ '/#essays' | prepend: site.baseurl }}">
+          Essays
+        </a>
+
+        <a class="nav-link"
+           style="color: #5e3a87; font-weight: 500;"
+           href="{{ '/resume.html' | prepend: site.baseurl }}">
+          Resume
+        </a>
+
       </ul>
     </div>
   </div>
