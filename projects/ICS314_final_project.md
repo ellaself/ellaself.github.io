@@ -9,7 +9,7 @@ labels:
   - video games
   - app
   - final project 
-summary: "ICS 314 Final Project and app that allows students on UH Mānoa's campus to connect across gamming plateforms"
+summary: "ICS 314 Final Project and app that allows students at UH Mānoa's to connect across gamming plateforms"
 ---
 
 <img class="img-fluid" src="https://uh-gamelink.github.io/img/M3/home-pg.png">
