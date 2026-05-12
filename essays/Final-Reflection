@@ -1,0 +1,52 @@
+---
+layout: essay
+type: essay
+title: "Takeways and Contempations of Software Engineering"
+# All dates must be YYYY-MM-DD format!
+date: 2026-05-10
+published: true
+labels:
+  - Final Project
+  - Agile Project Management 
+  - Functional Programming 
+  - Ethics 
+---
+
+<img width="350px" class="rounded float-start pe-4" src="https://www.smartsheet.com/sites/default/files/IC-Software-Development-Life-Cycle.jpg">
+
+<h4>A crash course in web design </h4>
+<p>
+One of the most interesting aspects of this class has been getting to learn about functional programming within TypeScript and JavaScript. Coming from a background in Java and C++, I previously relied on traditional practices of object-oriented programming. However, with the introduction of functional programming, I have learned how to use functions as data variables and pass them as arguments. These unique program qualities have made my code more concise and elegant. Allowing me to cut down on redundant code and applying functions across numerous operations. 
+</p>
+  
+<p> 
+I also found the built-in functionality that comes with these languages incredibly useful. As a data energy analyst on campus, functions such as filter() help me sort through massive datasets to derive my desired information. Through this experience, I realized that functional programming is highly versatile and well-suited for real-world problems. Moreover, these qualities create cleaner structures and reinforce the engineering principle of “Don’t Repeat Yourself."
+</p>
+
+<h4>Putting new skills into practice </h4>
+
+<p>
+In addition to learning about functional programming, I used these practices while developing and managing our final project. While creating our app, we used utilities such as <code>map</code> and <code>filter</code> to sort through our real-world data. These functional programming practices reduce coding time for the developer and improve readability when collaborating with teammates. Once we properly understood a problem, we were better able to solve the issue efficiently. While evaluating our issues-driven project management, numerous concerns needed to be dealt with during a set period of time. In addition, issue-driven project management aided our team in setting deliverable results and visualizing the extent of our project.
+</p>
+
+<p>
+From this experience, this style of project management felt the most collaborative out of any previous group project that I have done. We also checked in with each other every couple of days to ensure that we stayed on track, addressed needs, and clarified outstanding issues. Each team member contributed their own spin to the application and helped the project come to fruition. We frequently would help each other and work together on issues to find workable solutions. Overall, I found this model of management to be very interactive, practical, and efficient. For these reasons, I hope to carry over this management style into my future group work. 
+</p>
+
+
+<h4>Making the right call </h4>
+
+<p>
+Moreover, our final project pushed me to think through how to design and deploy my applications. More than just completing an idea and launching an app, I got to think through the process of development and its purpose. I began considering the programs' possible applications, safeguards, and impacts. This mindset helped me to better align my intentions with my desired outcomes.
+</p>
+
+<p>
+With that in mind, projects can be great on paper but be entirely different in reality. More importantly, technology can be easily misused or produce unintended consequences if developers are not mindful. For this reason, following the AMC ethical guidelines of project development is essential. Tenets like "recognizing and taking special care of systems that become integrated into the infrastructure of society.” Or considering the good of the public over all else informs my work as a programmer. Together, these principles serve as a foundation for how I will make decisions in my work and why I will choose to take on projects I take on in the future.
+</p>
+
+<h4>Final thoughts</h4>
+
+<p>
+Throughout this semester, I have learned many valuable lessons and grown as a programmer. Looking back, I realize that overcoming these challenges was necessary for developing my understanding of software engineering. I feel that this course has shown me the value of functional programming. It also changed my mindset and outlook on how to tackle major projects. Furthermore, it has provided me with ethics needed to navigate the demands of certain work and make sound judgments within programming.
+</p>
+
