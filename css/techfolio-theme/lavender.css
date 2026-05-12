@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
-/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/* Root Variables */
 :root {
   --tf-lavender1: #8e6bbf;
   --tf-lavender2: #a07ccf;
@@ -20,17 +20,43 @@
   --tf-icon-fill: var(--tf-lavender1);
   --tf-icon-hover: var(--tf-lavender3);
 
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--tf-lavender4);
-  --tf-projects-bg-color: var(--tf-lavender4);
+  /* MAIN PAGE BACKGROUND */
+  --tf-page-bg-color: white;
+
+  /* FOOTER */
+  --tf-footer-bg-color: var(--tf-lavender1);
+
+  /* PROJECTS / BODY SECTIONS */
+  --tf-projects-bg-color: white;
 }
 
+/* Headings */
 h1, h2, h3, h4, h5 {
   color: var(--tf-lavender1);
   font-family: Rubik;
 }
 
-/* Format social media icons */
+/* Header/Navbar */
+.navbar,
+.bg-dark,
+.page-header {
+  background-color: var(--tf-lavender1) !important;
+}
+
+/* Footer */
+footer {
+  background-color: var(--tf-lavender1) !important;
+  color: white;
+}
+
+/* Optional: make navbar text white */
+.navbar a,
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+/* Social icons */
 .tf-social {
   display: inline-block;
   fill: var(--tf-lavender1);
