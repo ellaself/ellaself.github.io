@@ -58,7 +58,7 @@ body {
 
 .modal-header,
 .modal-footer {
-  background-color: #6A359C !important;
+  background-color: var(--tf-lavender1)!important;
   border-color: var(--tf-lavender2);
 }
 
@@ -75,7 +75,7 @@ h5 {
 /* Navbar/Header */
 .navbar,
 .bg-dark {
-  background-color: var(--tf-lavender1) !important;
+  background-color: #6A359C !important;
 }
 
 .page-header {
@@ -91,7 +91,7 @@ h5 {
 
 /* Footer */
 footer {
-  background-color: var(--tf-lavender1) !important;
+  background-color: #6A359C !important;
   color: white;
 }
 
