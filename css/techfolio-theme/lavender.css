@@ -1,29 +1,29 @@
-/* Lavender Theme */
+/* Blue Gradient Theme */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
 :root {
-  --tf-lavender1: #8e6bbf;
-  --tf-lavender2: #a07ccf;
-  --tf-lavender3: #c5a3ff;
-  --tf-lavender4: #efe6ff;
+  --tf-blue1: #2563eb;
+  --tf-blue2: #3b82f6;
+  --tf-blue3: #93c5fd;
+  --tf-blue4: #dbeafe;
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
 
   /* Main text colors */
-  --bs-body-color: #4b2e68;
-  --bs-link-color: var(--tf-lavender1);
+  --bs-body-color: #1e3a8a;
+  --bs-link-color: var(--tf-blue1);
 
   /* Theme accents */
-  --tf-pill-bg: var(--tf-lavender3);
+  --tf-pill-bg: var(--tf-blue3);
 
-  --tf-icon-fill: var(--tf-lavender1);
-  --tf-icon-hover: var(--tf-lavender3);
+  --tf-icon-fill: var(--tf-blue1);
+  --tf-icon-hover: var(--tf-blue3);
 
   /* Background variables */
   --tf-page-bg-color: white;
-  --tf-footer-bg-color: var(--tf-lavender1);
+  --tf-footer-bg-color: var(--tf-blue1);
   --tf-projects-bg-color: white;
 }
 
@@ -46,20 +46,20 @@ body {
 .card-body,
 .card-footer,
 .list-group-item {
-  background-color: #fbf8ff !important;
-  border-color: var(--tf-lavender2) !important;
+  background-color: #f8fbff !important;
+  border-color: var(--tf-blue2) !important;
 }
 
 /* Bootstrap Modals */
 .modal-content {
-  background-color: #fbf8ff !important;
-  border: 1px solid var(--tf-lavender2);
+  background-color: #f8fbff !important;
+  border: 1px solid var(--tf-blue2);
 }
 
 .modal-header,
 .modal-footer {
-  background-color: var(--tf-lavender1)!important;
-  border-color: var(--tf-lavender2);
+  background-color: var(--tf-blue1) !important;
+  border-color: var(--tf-blue2);
 }
 
 /* Headings */
@@ -68,18 +68,24 @@ h2,
 h3,
 h4,
 h5 {
-  color: #4b2e68;
+  color: #1e3a8a;
   font-family: Rubik, sans-serif;
 }
 
 /* Navbar/Header */
 .navbar,
 .bg-dark {
-  background-color: #552586 !important;
+  background: linear-gradient(
+    90deg,
+    #1d4ed8 0%,
+    #2563eb 35%,
+    #3b82f6 70%,
+    #60a5fa 100%
+  ) !important;
 }
 
 .page-header {
-  color: var(--bs-body-color)!important;
+  color: var(--bs-body-color) !important;
 }
 
 /* Navbar text */
@@ -91,7 +97,14 @@ h5 {
 
 /* Footer */
 footer {
-  background-color: #552586 !important;
+  background: linear-gradient(
+    90deg,
+    #1d4ed8 0%,
+    #2563eb 35%,
+    #3b82f6 70%,
+    #60a5fa 100%
+  ) !important;
+
   color: white;
 }
 
@@ -131,7 +144,7 @@ a {
 
 /* Circular profile images */
 .rounded-circle {
-  border-color: #552586;
+  border-color: #2563eb;
   border-style: solid;
   border-width: 1px;
 }
