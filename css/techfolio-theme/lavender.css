@@ -30,7 +30,7 @@
 /* Entire page background */
 html,
 body {
-  background-color: white !important;
+  background-color: #0b2753 !important;
   color: var(--bs-body-color);
   font-family: "Open Sans", sans-serif;
 }
