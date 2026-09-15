@@ -22,11 +22,22 @@
 }
 
 /* Main page */
+/* Main page */
 html,
 body {
   background-color: var(--tf-page-bg-color) !important;
+  background-image: none !important;
   color: var(--bs-body-color);
   font-family: "Open Sans", sans-serif;
+}
+
+/* Remove gradients from page sections */
+main,
+section,
+.page-header,
+.container,
+.container-fluid {
+  background-image: none !important;
 }
 
 /* Header / Navbar */
