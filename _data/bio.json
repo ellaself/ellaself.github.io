@@ -6,7 +6,7 @@
     "email": "ellaself@hawaii.edu",
     "website": "https://ellaself.github.io",
     "summary": "I am currently an undergraduate student at the University of Hawai‘i at Mānoa, pursuing my Bachelor's degree in Computer Science. I  have earned my degree AS in Spring of 2025 and expect to receive my degree BS in fall of 2027. ",
-     "location": { "city": " Honolulu,", "countryCode": " USA", "region": "Hawaii," },
+     "location": { "city": " Honolulu", "countryCode": " USA", "region": "Hawaii," },
     "profiles": [
       { "network": "github", "username": "ellaself", "url": "https://github.com/ellaself" },
       { "network": "linkedin", "username": "ellaself", "url": "www.linkedin.com/in/ella-self-3b869b368" }
@@ -84,19 +84,19 @@
       ]
     }
   ],
-   "internships": [
+  "internships": [
     {
       "company": "Privateer",
-      "position": "Software intern",
+      "position": "Software Intern",
       "website": "https://www.privateer.com",
-      "startDate": "6/1/2026",
-      "endDate": "8/1/2026",
+      "startDate": "06/01/2026",
+      "endDate": "08/01/2026",
       "summary": "",
       "highlights": [
-        "My work at Privateer was to expand and improve upon Playwright end-to-end (E2E) test suites to increase the reliability of Privateer's applications, optimize continuous integration (CI) pipelines, and validate user interface functionality of their plateform Elements."
+        "My work at Privateer was to expand and improve upon Playwright end-to-end (E2E) test suites to increase the reliability of Privateer's applications, optimize continuous integration (CI) pipelines, and validate user interface functionality of their platform Elements."
       ]
     }
-   ],
+  ],
   "volunteer": [
     {
       "organization": "CIRP Lab",

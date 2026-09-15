@@ -24,7 +24,7 @@
   /* Background variables */
   --tf-page-bg-color: #0b2753;
   --tf-footer-bg-color: var(--tf-blue1);
-  --tf-projects-bg-color: white;
+  --tf-projects-bg-color: #0b2753;
 }
 
 /* Entire page background */
