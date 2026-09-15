@@ -1,11 +1,11 @@
 <div class="card mb-3">
   <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-3 py-5 px-5">
       <img src="{{ site.baseurl }}/{{ include.page.image }}" height="225px" class="rounded-start">
     </div>
-    <div class="col-sm-6 col-md-8">
+    <div class="col-sm-6 col-md-9">
       <div class="card-body">
-        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
+        <h5 class="card-title my-3" style="font-size: 1.5rem"><b>{{ include.page.title }}</b><small class="float-end" style="color: #6489b4">{{ include.page.date }}</small></h5>
         <p class="card-text">{{ include.page.summary }}</p>
         <p>
           {% for label in include.page.labels %}
