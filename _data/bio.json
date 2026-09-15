@@ -67,7 +67,7 @@
     {
       "company": "Sparky Surf School",
       "position": "Surf Instructor",
-      "website": "https://www.sparkyssurfschool.com/?gad_source=1&gad_campaignid=16567094550&gbraid=0AAAAAoLtyzayoyPAK3gP0CqQPet5L-AKO&gclid=Cj0KCQiAprLLBhCMARIsAEDhdPejC1fyXjw4sv1mOtCfszS3OlNogya-REs1b02fuOFe17Ji2482L1IaAooCEALw_wcB",
+      "website": "https://www.sparkyssurfschool.com/",
       "startDate": "06/09/2025",
       "endDate": "Present",
       "summary": "",
@@ -112,8 +112,8 @@
     {
       "title": "VLDB Scholarship",
       "date": "2026",
-      "awarder": "State of Hawaii",
-      "summary": "To support regional activities related to data management research and development in Hawaii through the Department of Information and Computer Sciences at the College of Natural Sciences at the University of Hawaii at Manoa and Hilo."
+      "awarder": " UH Mānoa Information and Computer Sciences (ICS) department's",
+      "summary": "This merit-based scholarship is a grant that supports data management research and development in Hawaii through the Department of Information and Computer Sciences at the College of Natural Sciences at the University of Hawaii at Manoa and Hilo."
     }
   ],
   "references": [
