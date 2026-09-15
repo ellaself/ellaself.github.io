@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/cotton/spanish.png
 title: "Spanish Counter"
 date: 2024
 published: true
@@ -13,16 +13,16 @@ summary: "this project is a number counter from 1 to 1000+ in a foreign language
 
 <img class="img-fluid" src="../img/cotton/numeros.png">
 
-// Lós numeros is text-based study tool that I developed using the functions and with C programming. This was built with the intent to fulfill assignment requirements as well as support learning from humanities classes. 
+Lós numeros is text-based study tool that I developed using the functions and with C programming. This was built with the intent to fulfill assignment requirements as well as support learning from humanities classes. 
 
-to give you a for instancem of this interactive program: 
+To give you a for instance of this interactive program: 
 
 <hr>
 
 <pre>
 
    
-1 = uno
+ 1 = uno
  2 = dos
  3 = tres
  4 = cautro

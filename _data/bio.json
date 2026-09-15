@@ -4,14 +4,13 @@
     "label": "Student",
     "picture": "https://github.com/ellaself.png",
     "email": "ellaself@hawaii.edu",
-    "phone": "808-388-7784",
+    "phone": "(808) 388-7784",
     "website": "https://ellaself.github.io",
     "summary": "I am currently an undergraduate student at the University of Hawai‘i at Mānoa, pursuing my Bachelor's degree in Computer Science. I  have earned my degree AS in Spring of 2025 and expect to receive my degree BS in fall of 2027. ",
-     "location": { "address": "1914 Ala Mahamoe street", "postalCode": "96821,", "city": " Honolulu,", "countryCode": " USA", "region": "Hawaii," },
+     "location": { "city": " Honolulu,", "countryCode": " USA", "region": "Hawaii," },
     "profiles": [
       { "network": "github", "username": "ellaself", "url": "https://github.com/ellaself" },
-      { "network": "linkedin", "username": "ellaself", "url": "www.linkedin.com/in/ella-self-3b869b368" },
-      { "network": "instagram", "username": "Ell.Redfern", "url": "https://www.instagram.com/ella.redfern/" }
+      { "network": "linkedin", "username": "ellaself", "url": "www.linkedin.com/in/ella-self-3b869b368" }
     ]
   },
   "interests": [
@@ -28,7 +27,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub", "gitkraken", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Git/GitHub", "Excel", "TI LaunchPad" ]
     }
   ],
   "education": [
@@ -108,9 +107,15 @@
   "awards": [
     {
       "title": "UH Mānoa Ka'ie'ie Scholarship",
-      "date": "202",
+      "date": "2025",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming transfer students and undergraduate Students through Hawai'i instutions."
+    },
+    {
+      "title": "VLDB Scholarship",
+      "date": "2026",
+      "awarder": "State of Hawaii",
+      "summary": "To support regional activities related to data management research and development in Hawaii through the Department of Information and Computer Sciences at the College of Natural Sciences at the University of Hawaii at Manoa and Hilo."
     }
   ],
   "references": [
