@@ -1,38 +1,80 @@
-/* Blue Gradient Theme */
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
-
 :root {
+  /* Main blue palette */
   --tf-blue1: #dbeafe;
-  --tf-blue2: #dbeafe;
-  --tf-blue3: #dbeafe;
+  --tf-blue2: #93c5fd;
+  --tf-blue3: #3b82f6;
   --tf-blue4: #dbeafe;
+
+  /* Backgrounds */
+  --tf-page-bg-color: #021532;
+  --tf-header-bg-color: #0b2753;
+  --tf-footer-bg-color: #0b2753;
+
+  /* Text */
+  --bs-body-color: #dbeafe;
+  --bs-link-color: #93c5fd;
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
 
-  /* Main text colors */
-  --bs-body-color: #1e3a8a;
-  --bs-link-color: var(--tf-blue1);
-
-  /* Theme accents */
   --tf-pill-bg: var(--tf-blue3);
-
-  --tf-icon-fill: var(--tf-blue1);
-  --tf-icon-hover: var(--tf-blue3);
-
-  /* Background variables */
-  --tf-page-bg-color: #021532;
-  --tf-footer-bg-color: var(--tf-blue1);
-  --tf-projects-bg-color: #0b2753;
+  --tf-icon-fill: #dbeafe;
+  --tf-icon-hover: #93c5fd;
 }
 
-/* Entire page background */
+/* Main page */
 html,
 body {
-  background-color: #021532 !important;
+  background-color: var(--tf-page-bg-color) !important;
   color: var(--bs-body-color);
   font-family: "Open Sans", sans-serif;
+}
+
+/* Header / Navbar */
+.navbar,
+.bg-dark {
+  background-color: var(--tf-header-bg-color) !important;
+}
+
+.navbar a,
+.navbar-brand,
+.nav-link {
+  color: #f8fbff !important;
+}
+
+/* Footer */
+footer {
+  background-color: var(--tf-footer-bg-color) !important;
+  color: #f8fbff;
+}
+
+footer a {
+  color: #dbeafe !important;
+}
+
+/* Main headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #f8fbff;
+  font-family: Rubik, sans-serif;
+}
+
+/* Normal text */
+p,
+li {
+  color: #dbeafe;
+}
+
+/* Links */
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dbeafe;
 }
 
 /* Cards */
@@ -41,56 +83,32 @@ body {
 .card-footer,
 .list-group-item {
   background-color: #f8fbff !important;
-  border-color: var(--tf-blue2) !important;
+  color: #021532;
+  border-color: #93c5fd !important;
+}
+
+/* Make card text dark */
+.card p,
+.card li,
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.card h5 {
+  color: #021532;
 }
 
 /* Bootstrap Modals */
 .modal-content {
   background-color: #f8fbff !important;
-  border: 1px solid var(--tf-blue2);
+  color: #021532;
+  border: 1px solid #93c5fd;
 }
 
 .modal-header,
 .modal-footer {
-  background-color: var(--tf-blue1) !important;
-  border-color: var(--tf-blue2);
-}
-
-/* Headings */
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: #f8fbff ;
-  font-family: Rubik, sans-serif;
-}
-
-/* Navbar/Header */
-.navbar,
-.bg-dark {
-  background-color: #021532 !important;
-}
-
-.page-header {
-  color: var(--bs-body-color) !important;
-}
-
-/* Navbar text */
-.navbar a,
-.navbar-brand,
-.nav-link {
-  color: white !important;
-}
-
-/* Footer */
-footer {
-  background-color: #030e1b !important;
-  color: white;
-}
-
-footer a {
-  color: white !important;
+  background-color: var(--tf-header-bg-color) !important;
+  border-color: #93c5fd;
 }
 
 /* Social icons */
@@ -107,11 +125,6 @@ footer a {
   fill: var(--tf-icon-hover);
 }
 
-/* Links */
-a {
-  text-decoration: none;
-}
-
 /* Mobile navbar */
 @media (max-width: 500px) {
   .navbar-brand {
@@ -123,9 +136,9 @@ a {
   }
 }
 
-/* Circular profile images */
+/* Profile image */
 .rounded-circle {
-  border-color: #2563eb;
+  border-color: #93c5fd;
   border-style: solid;
   border-width: 1px;
 }
