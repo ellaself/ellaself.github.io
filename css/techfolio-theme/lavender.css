@@ -230,15 +230,9 @@ a:hover {
 }
 
 
-/* About / profile section */
-.page-header {
-  background-color: var(--tf-page-bg-color) !important;
-  background-image: none !important;
-}
-
-/* Projects / main body section */
-main,
-section {
+/* Force project section to match page */
+.tf-projects,
+.projects {
   background-color: var(--tf-page-bg-color) !important;
   background-image: none !important;
 }
