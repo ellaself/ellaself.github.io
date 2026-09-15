@@ -228,3 +228,17 @@ a:hover {
   border-style: solid;
   border-width: 1px;
 }
+
+
+/* About / profile section */
+.page-header {
+  background-color: var(--tf-page-bg-color) !important;
+  background-image: none !important;
+}
+
+/* Projects / main body section */
+main,
+section {
+  background-color: var(--tf-page-bg-color) !important;
+  background-image: none !important;
+}
