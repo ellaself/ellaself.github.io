@@ -230,9 +230,7 @@ a:hover {
 }
 
 
-/* Force project section to match page */
-.tf-projects,
-.projects {
-  background-color: var(--tf-page-bg-color) !important;
+.projects-section {
+  background-color: #021532 !important;
   background-image: none !important;
 }
