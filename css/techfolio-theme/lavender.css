@@ -22,7 +22,7 @@
   --tf-icon-hover: var(--tf-blue3);
 
   /* Background variables */
-  --tf-page-bg-color: #0b2753;
+  --tf-page-bg-color: #021532;
   --tf-footer-bg-color: var(--tf-blue1);
   --tf-projects-bg-color: #0b2753;
 }
@@ -30,7 +30,7 @@
 /* Entire page background */
 html,
 body {
-  background-color: #0b2753 !important;
+  background-color: #021532 !important;
   color: var(--bs-body-color);
   font-family: "Open Sans", sans-serif;
 }
@@ -62,14 +62,14 @@ h2,
 h3,
 h4,
 h5 {
-  color: #1e3a8a;
+  color: #f8fbff ;
   font-family: Rubik, sans-serif;
 }
 
 /* Navbar/Header */
 .navbar,
 .bg-dark {
-  background-color: #030e1b !important;
+  background-color: #021532 !important;
 }
 
 .page-header {
