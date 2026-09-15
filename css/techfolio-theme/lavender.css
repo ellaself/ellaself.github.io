@@ -22,7 +22,7 @@
   --tf-icon-hover: var(--tf-blue3);
 
   /* Background variables */
-  --tf-page-bg-color: white;
+  --tf-page-bg-color: #0b2753;
   --tf-footer-bg-color: var(--tf-blue1);
   --tf-projects-bg-color: white;
 }
