@@ -11,10 +11,10 @@
   --tf-blue4: #dbeafe;
 
   /* Backgrounds */
-  --tf-page-bg-color: #021532;
-  --tf-header-bg-color: #021532;
-  --tf-footer-bg-color: #021532;
-  --tf-projects-bg-color: #021532;
+  --tf-page-bg-color: #000e24;
+  --tf-header-bg-color: #000e24;
+  --tf-footer-bg-color: #000e24;
+  --tf-projects-bg-color: #000e24;
 
   /* Text */
   --bs-body-color: #dbeafe;
@@ -139,7 +139,7 @@ a:hover {
 .card-footer,
 .list-group-item {
   background-color: #f8fbff !important;
-  color: #021532;
+  color: #000e24;
   border-color: #93c5fd !important;
 }
 
@@ -153,7 +153,7 @@ a:hover {
 .card h3,
 .card h4,
 .card h5 {
-  color: #021532;
+  color: #000e24;
 }
 
 
@@ -174,7 +174,7 @@ a:hover {
 
 .modal-content {
   background-color: #f8fbff !important;
-  color: #021532;
+  color: #000e24;
   border: 1px solid #93c5fd;
 }
 
@@ -231,6 +231,6 @@ a:hover {
 
 
 .projects-section {
-  background-color: #021532 !important;
+  background-color: #000e24 !important;
   background-image: none !important;
 }
