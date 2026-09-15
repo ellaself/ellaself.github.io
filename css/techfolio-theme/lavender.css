@@ -1,3 +1,8 @@
+/* Blue Theme */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+
 :root {
   /* Main blue palette */
   --tf-blue1: #dbeafe;
@@ -9,20 +14,28 @@
   --tf-page-bg-color: #021532;
   --tf-header-bg-color: #021532;
   --tf-footer-bg-color: #021532;
+  --tf-projects-bg-color: #021532;
 
   /* Text */
   --bs-body-color: #dbeafe;
   --bs-link-color: #93c5fd;
 
+  /* Fonts */
   --bs-font-sans-serif: "Open Sans", sans-serif;
 
+  /* Theme accents */
   --tf-pill-bg: var(--tf-blue3);
+
+  /* Icons */
   --tf-icon-fill: #dbeafe;
   --tf-icon-hover: #93c5fd;
 }
 
-/* Main page */
-/* Main page */
+
+/* ==================================================
+   Main Page
+   ================================================== */
+
 html,
 body {
   background-color: var(--tf-page-bg-color) !important;
@@ -31,7 +44,9 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* Remove gradients from page sections */
+
+/* Remove background images / gradients */
+
 main,
 section,
 .page-header,
@@ -40,10 +55,15 @@ section,
   background-image: none !important;
 }
 
-/* Header / Navbar */
+
+/* ==================================================
+   Header / Navbar
+   ================================================== */
+
 .navbar,
 .bg-dark {
   background-color: var(--tf-header-bg-color) !important;
+  background-image: none !important;
 }
 
 .navbar a,
@@ -52,9 +72,18 @@ section,
   color: #f8fbff !important;
 }
 
-/* Footer */
+.page-header {
+  color: var(--bs-body-color) !important;
+}
+
+
+/* ==================================================
+   Footer
+   ================================================== */
+
 footer {
   background-color: var(--tf-footer-bg-color) !important;
+  background-image: none !important;
   color: #f8fbff;
 }
 
@@ -62,7 +91,11 @@ footer a {
   color: #dbeafe !important;
 }
 
-/* Main headings */
+
+/* ==================================================
+   Headings
+   ================================================== */
+
 h1,
 h2,
 h3,
@@ -72,13 +105,21 @@ h5 {
   font-family: Rubik, sans-serif;
 }
 
-/* Normal text */
+
+/* ==================================================
+   Normal Text
+   ================================================== */
+
 p,
 li {
   color: #dbeafe;
 }
 
-/* Links */
+
+/* ==================================================
+   Links
+   ================================================== */
+
 a {
   color: #93c5fd;
   text-decoration: none;
@@ -88,7 +129,11 @@ a:hover {
   color: #dbeafe;
 }
 
-/* Cards */
+
+/* ==================================================
+   Cards
+   ================================================== */
+
 .card,
 .card-body,
 .card-footer,
@@ -98,7 +143,9 @@ a:hover {
   border-color: #93c5fd !important;
 }
 
-/* Make card text dark */
+
+/* Keep text inside cards dark */
+
 .card p,
 .card li,
 .card h1,
@@ -109,7 +156,22 @@ a:hover {
   color: #021532;
 }
 
-/* Bootstrap Modals */
+
+/* Keep card links readable */
+
+.card a {
+  color: #1e3a8a;
+}
+
+.card a:hover {
+  color: #3b82f6;
+}
+
+
+/* ==================================================
+   Bootstrap Modals
+   ================================================== */
+
 .modal-content {
   background-color: #f8fbff !important;
   color: #021532;
@@ -122,7 +184,11 @@ a:hover {
   border-color: #93c5fd;
 }
 
-/* Social icons */
+
+/* ==================================================
+   Social Icons
+   ================================================== */
+
 .tf-social {
   display: inline-block;
   fill: var(--tf-icon-fill);
@@ -136,8 +202,13 @@ a:hover {
   fill: var(--tf-icon-hover);
 }
 
-/* Mobile navbar */
+
+/* ==================================================
+   Mobile Navbar
+   ================================================== */
+
 @media (max-width: 500px) {
+
   .navbar-brand {
     display: none;
   }
@@ -147,7 +218,11 @@ a:hover {
   }
 }
 
-/* Profile image */
+
+/* ==================================================
+   Profile Image
+   ================================================== */
+
 .rounded-circle {
   border-color: #93c5fd;
   border-style: solid;
