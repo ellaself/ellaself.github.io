@@ -81,11 +81,9 @@ layout: home
               <p class="m-0"><b>{{ entry.institution }}</b></p>
               <p class="m-0">{{ entry.studyType }}, {{ entry.area }}</p>
               {% if entry.courses %}
-                <ul>
                   {% for course in entry.courses %}
-                    <li>{{ course }}</li>
+                    {{ course }}
                   {% endfor %}
-                </ul>
               {% endif %}
             </div>
           <div class="col-3">
@@ -124,11 +122,9 @@ layout: home
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
-                <ul>
-                  {% for highlight in entry.highlights %}
-                    <li>{{ highlight }}</li>
-                  {% endfor %}
-                </ul>
+                {% for highlight in entry.highlights %}
+                  {{ highlight }}
+                {% endfor %}
               {% endif %}
             </div>
             <div class="col-3">
@@ -163,15 +159,13 @@ layout: home
           {% for entry in site.data.bio.volunteer %}
           <div class="row mb-3">
             <div class="col-9">
-              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}</b></p>
+              <p class="mb-0"><b>{{ entry.position }}{% if entry.organization %} {{ entry.organization }}{% endif %}</b></p>
               <p class="mb-0"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
               <p class="mb-0">{{ entry.summary }}</p>
               {% if entry.highlights %}
-                <ul>
                 {% for highlight in entry.highlights %}
-                  <li>{{ highlight }}</li>
+                  {{ highlight }}
                 {% endfor %}
-              </ul>
               {% endif %}
             </div>
             <div class="col-3">

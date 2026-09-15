@@ -1,0 +1,137 @@
+/* Blue Gradient Theme */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+
+:root {
+  --tf-blue1: #2563eb;
+  --tf-blue2: #3b82f6;
+  --tf-blue3: #93c5fd;
+  --tf-blue4: #dbeafe;
+
+  --bs-font-sans-serif: "Open Sans", sans-serif;
+
+  /* Main text colors */
+  --bs-body-color: #1e3a8a;
+  --bs-link-color: var(--tf-blue1);
+
+  /* Theme accents */
+  --tf-pill-bg: var(--tf-blue3);
+
+  --tf-icon-fill: var(--tf-blue1);
+  --tf-icon-hover: var(--tf-blue3);
+
+  /* Background variables */
+  --tf-page-bg-color: white;
+  --tf-footer-bg-color: var(--tf-blue1);
+  --tf-projects-bg-color: white;
+}
+
+/* Entire page background */
+html,
+body {
+  background-color: white !important;
+  color: var(--bs-body-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Containers stay transparent */
+.container,
+.container-fluid {
+  background-color: transparent !important;
+}
+
+/* Cards */
+.card,
+.card-body,
+.card-footer,
+.list-group-item {
+  background-color: #f8fbff !important;
+  border-color: var(--tf-blue2) !important;
+}
+
+/* Bootstrap Modals */
+.modal-content {
+  background-color: #f8fbff !important;
+  border: 1px solid var(--tf-blue2);
+}
+
+.modal-header,
+.modal-footer {
+  background-color: var(--tf-blue1) !important;
+  border-color: var(--tf-blue2);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #1e3a8a;
+  font-family: Rubik, sans-serif;
+}
+
+/* Navbar/Header */
+.navbar,
+.bg-dark {
+  background-color: #93c5fd !important;
+}
+
+.page-header {
+  color: var(--bs-body-color) !important;
+}
+
+/* Navbar text */
+.navbar a,
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+/* Footer */
+footer {
+  background-color: #93c5fd !important;
+  color: white;
+}
+
+footer a {
+  color: white !important;
+}
+
+/* Social icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -0.1em;
+  width: 1.5em;
+  transition: 0.2s;
+}
+
+.tf-social:hover {
+  fill: var(--tf-icon-hover);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Mobile navbar */
+@media (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .navbar-brand-mobile {
+    display: inline;
+  }
+}
+
+/* Circular profile images */
+.rounded-circle {
+  border-color: #2563eb;
+  border-style: solid;
+  border-width: 1px;
+}
