@@ -104,14 +104,14 @@
   ],
   "awards": [
     {
-      "title": "UH Mānoa Ka'ie'ie Scholarship <br>",
-      "date": "2025",
+      "title": "UH Mānoa Ka'ie'ie Scholarship", 
+      "date": "<br> 2025",
       "awarder": "State of Hawaii",
       "summary": "This scholarships is awarded to incoming transfer students and undergraduate students through Hawai'i institutions."
     },
     {
-      "title": "VLDB Scholarship <br>",
-      "date": "2026",
+      "title": "VLDB Scholarship",
+      "date": "<br>2026",
       "awarder": " UH Mānoa Information and Computer Sciences (ICS) department's",
       "summary": "This merit-based scholarship is a grant that supports data management research and development in Hawaii through the Department of Information and Computer Sciences at the College of Natural Sciences at the University of Hawaii at Manoa and Hilo."
     }
