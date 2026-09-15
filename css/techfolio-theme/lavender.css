@@ -4,9 +4,9 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
 
 :root {
-  --tf-blue1: #030915;
-  --tf-blue2: #0a3170;
-  --tf-blue3: #053060;
+  --tf-blue1: #dbeafe;
+  --tf-blue2: #dbeafe;
+  --tf-blue3: #dbeafe;
   --tf-blue4: #dbeafe;
 
   --bs-font-sans-serif: "Open Sans", sans-serif;
@@ -33,12 +33,6 @@ body {
   background-color: #0b2753 !important;
   color: var(--bs-body-color);
   font-family: "Open Sans", sans-serif;
-}
-
-/* Containers stay transparent */
-.container,
-.container-fluid {
-  background-color: transparent !important;
 }
 
 /* Cards */
