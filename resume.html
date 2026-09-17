@@ -234,10 +234,10 @@ layout: home
 
           <div class="col-3">
 
-            <p class="m-0 text-end" style="font-size: 1.5rem; line-height: 1.6;">
+            <p class="m-0 text-end" style="font-size: 1.4rem; line-height: 1.6;">
 
               {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
+                {{ entry.startDate | slice: 0,8 }}
               {% endif %}
 
               {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
@@ -247,7 +247,7 @@ layout: home
               {% if entry.endDate %}
 
                 {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
+                  {{ entry.endDate | slice: 0,8 }}
                 {% else %}
                   {{ entry.endDate }}
                 {% endif %}
@@ -317,10 +317,10 @@ layout: home
 
           <div class="col-3">
 
-            <p class="m-0 text-end" style="font-size: 1.5rem; line-height: 1.6;">
+            <p class="m-0 text-end" style="font-size: 1.4rem; line-height: 1.6;">
 
               {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
+                {{ entry.startDate | slice: 0,8 }}
               {% endif %}
 
               {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
@@ -374,9 +374,8 @@ layout: home
           <div class="col-9">
 
             <p class="mb-0" style="font-size: 1.5rem; line-height: 1.6;">
-              <b style="font-size: 1.5rem;" >
-                {{ entry.position }}
-                {% if entry.company %}, {{ entry.company }}{% endif %}
+              <b style="font-size: 1.5rem;">
+                {{ entry.position }}{% if entry.company%}, {{ entry.company }}{% endif %}
               </b>
             </p>
 
@@ -405,10 +404,10 @@ layout: home
 
           <div class="col-3">
 
-            <p class="m-0 text-end" style="font-size: 1.5rem; line-height: 1.6;">
+            <p class="m-0 text-end" style="font-size: 1.4rem; line-height: 1.6;">
 
               {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
+                {{ entry.startDate | slice: 0,9 }}
               {% endif %}
 
               {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
@@ -418,7 +417,7 @@ layout: home
               {% if entry.endDate %}
 
                 {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
+                  {{ entry.endDate | slice: 0,9 }}
                 {% else %}
                   {{ entry.endDate }}
                 {% endif %}
@@ -466,8 +465,7 @@ layout: home
             <p class="mb-0" style="font-size: 1.5rem; line-height: 1.6;">
 
               <b style="font-size: 1.5rem;">
-                {{ entry.position }}
-                {% if entry.organization %}, {{ entry.organization }}{% endif %}
+                {{ entry.position }}{% if entry.organization %}, {{ entry.organization }}{% endif %}
               </b>
 
             </p>
@@ -500,7 +498,7 @@ layout: home
             <p class="m-0 text-end" style="font-size: 1.5rem; line-height: 1.6;">
 
               {% if entry.startDate %}
-                {{ entry.startDate | slice: 0,4 }}
+                {{ entry.startDate | slice: 0,8 }}
               {% endif %}
 
               {% if entry.startDate and entry.startDate != '' and entry.endDate and entry.endDate != '' %}
@@ -510,7 +508,7 @@ layout: home
               {% if entry.endDate %}
 
                 {% if entry.endDate != "Present" %}
-                  {{ entry.endDate | slice: 0,4 }}
+                  {{ entry.endDate | slice: 0,18 }}
                 {% else %}
                   {{ entry.endDate }}
                 {% endif %}

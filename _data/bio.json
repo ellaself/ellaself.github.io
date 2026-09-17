@@ -33,8 +33,8 @@
       "institution": "Kapi'olani Community College, Honolulu ",
       "area": "Computer Science and Natural Sciences (ASNS)",
       "studyType": "Associates",
-      "startDate": "08/12/2022",
-      "endDate": "05/15/2025",
+      "startDate": "Aug 2022",
+      "endDate": "May 2025",
       "courses": [
       ]
     }, 
@@ -42,8 +42,8 @@
       "institution": "University of Hawai'i, Honolulu ",
       "area": "Computer Science ",
       "studyType": "Bachelors",
-      "startDate": "05/28/2022",
-      "endDate": "Current",
+      "startDate": "May 2022",
+      "endDate": "Present",
       "courses": [
       ]
     }
@@ -53,34 +53,22 @@
       "company": "UH Manoa Department of Sustainability",
       "position": "Data Energy Analyst",
       "website": "https://www.hawaii.edu/sustainability/",
-      "startDate": "8/12/2025",
+      "startDate": "Aug 2025",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "My job is to assist in data visualization and analysis of ",
-        "UH Mānoa’s power grid.I am tasked with collecting data and ",
-        "providing information on where to best allocate our resources",
-        "for energyefficiency. As well as help develop packages to ",
-        "lobby for renewable energy projects across UH campuses."
+        "My job is to assist in data visualization and analysis of UH Mānoa’s power grid.I am tasked with collecting data and providing information on where to best allocate our resources for energyefficiency. As well as help develop packages to lobby for renewable energy projects across UH campuses."
       ]
     },
     {
       "company": "Sparky Surf School",
       "position": "Surf Instructor",
       "website": "https://www.sparkyssurfschool.com/",
-      "startDate": "06/09/2025",
+      "startDate": "Jul 2025",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-          "To maintain our business’ five star rating, I perform the ", 
-          "highest degree of service for our clientele. Surfing is a ",
-          "dangerous sport and the open ocean is unpredictable. My work", 
-          " requires taking decisive action to ensure optimal safety and",
-          " experience for my students. In addition to this, I provide ", 
-          "constructive feedback and motivation to push through adversity.", 
-          " My standard of work has honed my ability to use quick thinking,",
-          " a technical eye, and concise words in order to give a once in a", 
-          " lifetime experience."
+          "To maintain our business’ five star rating, I perform the highest degree of service for our clientele. Surfing is a dangerous sport and the open ocean is unpredictable. My work requires taking decisive action to ensure optimal safety and experience for my students. In addition to this, I provide constructive feedback and motivation to push through adversity. My standard of work has honed my ability to use quick thinking, a technical eye, and concise words in order to give a once in a lifetime experience."
       ]
     }
   ],
@@ -89,8 +77,8 @@
       "company": "Privateer",
       "position": "Software Intern",
       "website": "https://www.privateer.com",
-      "startDate": "06/01/2026",
-      "endDate": "08/01/2026",
+      "startDate": "Jul 2026",
+      "endDate": "Sept 2026",
       "summary": "",
       "highlights": [
         "My work at Privateer was to expand and improve upon Playwright end-to-end (E2E) test suites to increase the reliability of Privateer's applications, optimize continuous integration (CI) pipelines, and validate user interface functionality of their platform Elements."
@@ -101,17 +89,12 @@
     {
       "organization": "CIRP Lab",
       "website": "http://manoa.hawaii.edu/reis",
-      "position": "",
-      "startDate": "08/22/2025",
+      "position": "Volunteer",
+      "startDate": "Aug 2025",
       "endDate": "Present",
       "summary": "",
       "highlights": [
-        "My work at CIRP lab is to train AI models to identify both plants ",
-        "and invasive species. We implement drones and robots to selectively",
-        " spray invasive species to help aid in restoration and preservation ",
-        "of Hawaiian endemic foliage. As well as aid local businesses in ", 
-        "agriculture efficiency and inform them how to best direct their labor",
-        " force."
+        "My work at CIRP lab is to train AI models to identify both plants and invasive species. We implement drones and robots to selectively spray invasive species to help aid in restoration and preservation of Hawaiian endemic foliage. As well as aid local businesses in agriculture efficiency and inform them how to best direct their labor force."
       ]
     }
   ],
@@ -119,13 +102,13 @@
     {
       "title": "UH Mānoa Ka'ie'ie Scholarship", 
       "date": "2025",
-      "awarder": "<br>State of Hawaii",
+      "awarder": "<br> <i>State of Hawaii</i>",
       "summary": "This scholarships is awarded to incoming transfer students and undergraduate students through Hawai'i institutions."
     },
     {
       "title": "VLDB Scholarship",
       "date": "2026",
-      "awarder": "<br>UH Mānoa Information and Computer Sciences (ICS) department's",
+      "awarder": "<br><i>Computer Sciences (ICS) department UH Mānoa </i>",
       "summary": "This merit-based scholarship is a grant that supports data management research and development in Hawaii through the Department of Information and Computer Sciences at the College of Natural Sciences at the University of Hawaii at Manoa and Hilo."
     }
   ],

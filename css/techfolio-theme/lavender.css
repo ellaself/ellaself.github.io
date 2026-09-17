@@ -34,7 +34,7 @@
   --bs-link-hover-color: #dbeafe;
 
   /* Pills */
-  --tf-pill-bg: #3b82f6;
+  --tf-pill-bg: #194182;
 
   /* Icons */
   --tf-icon-fill: #dbeafe;
@@ -86,11 +86,14 @@ section,
    Typography
    ================================================== */
 
+h5{
+  font-size: 27px;
+}
+
 h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   color: #f8fbff;
 
@@ -109,7 +112,14 @@ h6 {
   font-size: 1.5rem;
 }
 
-p,
+.project-description{
+  font-size: 27px;
+  line-height: 1.6;
+  color: #dbeafe;
+  padding-top: 15px
+}
+
+
 li {
   color: #dbeafe;
 }
@@ -303,20 +313,15 @@ hr {
    Pills / Labels
    ================================================== */
 
-.badge {
-  border-color: var(--tf-pill-bg) !important;
-
-  color: #f8fbff !important;
-
-  font-weight: 500;
-  font-size: 0.75rem;
-
-  letter-spacing: 0.01em;
-
-  border-radius: 4px;
-
-  padding: 0.3em 0.65em;
-}
+   .badge {
+    border-color: var(--tf-pill-bg) !important;
+    color: var(--tf-page-bg-color) !important;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 0.02em;
+    border-radius: 10px;
+    padding: 0.3em 0.65em;
+  }
 
 /* ==================================================
    Social Icons
@@ -521,4 +526,12 @@ footer a:hover {
 /* More space between resume entries */
 .bg-gradient .row.mb-3 {
   margin-bottom: 1.5rem !important;
+}
+
+
+/* buttons */ 
+.card .btn {
+  border: 2px solid #93c5fd !important;
+  border-radius: 10px;
+  font-weight: 600px;
 }
