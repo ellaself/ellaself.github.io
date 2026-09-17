@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/pond.png
+image: img/HKfishpond.png
 title: "Lokoiʻa"
 date: 2023
 published: true
@@ -18,14 +18,21 @@ summary: "My ICS 211 final project and videogame"
 </div>
 
 
+<p class="project-description">
 During my sophomore year, my classmates and I developed a text based fishing competition game. Where we implemented object oriented programming to allow users to interact with a simulated fishing pond. The purpose of this final project was to combine Hawaiian cultural practices with programming principles. 
+</p>
 
+<p class="project-description">
 As for the mechanics of the game itself, players through a series of choices, could gain the most amount of fish based off the options in rules provided. Such as their equipment, selecting from items like fishing poles, spears, and nets. Players would alternate turns, amassing or loosing fish. We randomizated indigenous of fish's sizes and variety. With restrictions, such as the fish being adolescence or endangered, resulting in releases.  
+</p>
 
-
+<p class="project-description">
 Here is some code to intergated the defining standards for what would advance players:
+</p>
+
 <hr>
   
+
 ```cpp
 public Fish(String name, String bodyColor, String finColor, String food) {
         this(name, bodyColor, finColor, food, (int) (Math.random() * 1000) + 1); 

@@ -229,7 +229,6 @@ a:hover {
    ================================================== */
 
 hr {
-  border-color: #93c5fd;
   opacity: 0.25;
 }
 
@@ -410,22 +409,28 @@ hr {
    Code Blocks
    ================================================== */
 
-pre,
-code {
-  background-color: #f8fbff;
-
-  color: #021532;
+pre {
+  background-color: #0d2344 !important; /* code block color */
+  color: #dbeafe !important;
 
   font-family: var(--bs-font-monospace);
-  font-size: 0.875em;
+  font-size: 0.95rem;
 
-  border-radius: 4px;
+  padding: 1rem;
+  border: 1px solid #2b5290;
+  border-radius: 8px;
 }
 
-pre {
-  padding: 1rem;
+pre code {
+  background-color: transparent !important;
+  color: inherit !important;
+}
 
-  border: 1px solid #93c5fd;
+.img-thumbnail {
+  background-color: #021532 !important;
+  border: 2px solid #2b5290 !important;
+  padding: 3px;
+  border-radius: 8px;
 }
 
 

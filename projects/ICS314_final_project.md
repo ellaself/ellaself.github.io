@@ -1,14 +1,14 @@
 ---
 layout: project
 type: project
-image: img/difficulty/game_console.png
+image: img/UHGL.png
 title: "UH-GameLink"
 date: 2026
 published: true
 labels:
   - video games
-  - app
-  - final project
+  - App
+  - Final project
 summary: "ICS 314 Final Project and app that allows students at UH Mānoa to connect across gaming platforms."
 ---
 
