@@ -14,11 +14,11 @@ summary: "First site that I had made for my free-lance and contract work as an a
 <img class="img-fluid" src="../img/artlandingpage.png">
 
 <p class="project-description">
-    This is one of my first C-based projects that I created during my time in ICS 212. My interactive text-based game for rock paper scissors used user inputs, random generation, & score keeping. Calling on CompTurn() and the while statement allows for the game's functionality. While the player makes decisions based off the printInstruct() function. 
+This is one of my first projects related to web development that I had made during quarantine. Before I went back to school, I was a freelance artist for many years. I was commissioned to work on everything, from surfboards, to murals, to digital products. As my business grew, I needed an easy way for prospective clients to contact me. As well as, an application that was convenient to reference and hosted all my previous works.  
 </p>
 <p class="project-description">
-    Throughout a series of choices & turns, the tallied and scored total was computed from the calcWinner(comp, user) function.  Resulting in the output of the winner being 'u' for user, 'c' for computer, & 't' for tie. Otherwise, the program would determine that the user misrepresented or mistyped their response, and the console would allow for entering another value. 
+More significantly, my portfolio was the first thing that I had done related to computer science. Dveloping my site was extremely fun, in the sense that I got to understand how to design and layout applications the way I wanted. Additionally, it showed me the possibility of what you could do with coding. I realized how much I enjoyed programming, and I fell in love with the process. For all these reasons, I credit this project with being the start of why I chose my degree. 
 </p>
 <p class="project-description pb-5">
-Link to repo: <a href="https://ellaself.com"> ellaself.com </a>
+If you are interested, feel free to visit my site at <a href="https://ellaself.com"> ellaself.com </a>
 </p>
