@@ -20,5 +20,5 @@ summary: " An interactive Tic-tac-toe game against an AI model that learned your
     Throughout a series of choices & turns, the tallied and scored total was computed from the calcWinner(comp, user) function.  Resulting in the output of the winner being 'u' for user, 'c' for computer, & 't' for tie. Otherwise, the program would determine that the user misrepresented or mistyped their response, and the console would allow for entering another value. 
 </p>
 <p class="project-description pb-5">
-Link to repo: <a href="https://github.com/ellaself/react-tic-tac-toe"> UH-gamelink </a>
+Link to repo: <a href="https://github.com/ellaself/react-tic-tac-toe"> UH-Tic-Tac-Toe </a>
 </p>
