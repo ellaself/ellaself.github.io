@@ -11,7 +11,7 @@ labels:
 summary: " An interactive Tic-tac-toe game against an AI model that learned your moves as you play"
 ---
 
-<img class="img-fluid" src="../img/Tic-tac-toe.png)">
+<img class="img-fluid" src="../img/Tic-tac-toe.png">
 
 <p class="project-description">
     This is one of my first C-based projects that I created during my time in ICS 212. My interactive text-based game for rock paper scissors used user inputs, random generation, & score keeping. Calling on CompTurn() and the while statement allows for the game's functionality. While the player makes decisions based off the printInstruct() function. 
