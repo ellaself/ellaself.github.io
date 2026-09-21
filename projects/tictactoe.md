@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/ttt.png
 title: "Tic-Tac-Toe with LLM"
-date: 2024
+date: 2025
 published: true
 labels:
   - video games 
