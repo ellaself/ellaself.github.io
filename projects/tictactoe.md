@@ -14,11 +14,13 @@ summary: " An interactive Tic-tac-toe game against an AI model that learned your
 <img class="img-fluid" src="../img/Tictt.png">
 
 <p class="project-description">
-    This is one of my first C-based projects that I created during my time in ICS 212. My interactive text-based game for rock paper scissors used user inputs, random generation, & score keeping. Calling on CompTurn() and the while statement allows for the game's functionality. While the player makes decisions based off the printInstruct() function. 
+This is one of my first projects that I created using an LLM during my time in ICS 314. My interactive tic-tac-toe game allows you to play against an agent. Additionally, you can adjust the size of the n x n board, changing the size of the rows and columns. Not only that, but you view the series of moves made by both you and your opponent.  
+    
+
 </p>
 <p class="project-description">
-    Throughout a series of choices & turns, the tallied and scored total was computed from the calcWinner(comp, user) function.  Resulting in the output of the winner being 'u' for user, 'c' for computer, & 't' for tie. Otherwise, the program would determine that the user misrepresented or mistyped their response, and the console would allow for entering another value. 
+ Throughout a series of choices & turns, the agent will counter your moves as you play. The more you play, the better the model will be able to predict your moves and how to beat your winning strategy.
 </p>
 <p class="project-description pb-5">
-Link to repo: <a href="https://github.com/ellaself/react-tic-tac-toe">Tic-Tac-Toe </a>
+Link to repo: <a href="https://github.com/ellaself/Tic-Tac-Toe">Tic-Tac-Toe </a>
 </p>
